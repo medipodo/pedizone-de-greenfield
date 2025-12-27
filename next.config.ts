@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  // Minimal SEO configuration for pedizone.de
 };
 
 export default nextConfig;
