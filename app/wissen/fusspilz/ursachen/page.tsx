@@ -45,7 +45,7 @@ export default function UrsachenPage() {
         </p>
 
         <section>
-          Interner Verweis zur Übersichtsseite Fußpilz
+          <a href="/wissen/fusspilz">Übersichtsseite Fußpilz</a>
         </section>
       </article>
     </main>
