@@ -1,3 +1,10 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Fußpilz vorbeugen – Hygiene, Schuhe und Alltagstipps",
+  description: "Wie lässt sich Fußpilz vorbeugen? Erfahren Sie, welche Hygienemaßnahmen helfen, worauf Sie bei Schuhen achten sollten und wie Sie Rückfälle vermeiden können.",
+};
+
 export default function VorbeugungPage() {
   return (
     <main>
