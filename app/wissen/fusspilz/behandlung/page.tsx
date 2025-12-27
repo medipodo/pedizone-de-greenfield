@@ -1,3 +1,10 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Behandlung von Fußpilz – Grundlagen und Hinweise",
+  description: "Wie wird Fußpilz behandelt? Erfahren Sie mehr über lokale Behandlungsmöglichkeiten, wann ärztlicher Rat sinnvoll ist und welche Fehler häufig gemacht werden.",
+};
+
 export default function BehandlungPage() {
   return (
     <main>
