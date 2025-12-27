@@ -1,3 +1,10 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Ursachen von Fußpilz – Risikofaktoren und Auslöser",
+  description: "Wie entsteht Fußpilz? Erfahren Sie, welche Faktoren die Infektion begünstigen, warum Feuchtigkeit eine Rolle spielt und welche Erkrankungen das Risiko erhöhen.",
+};
+
 export default function UrsachenPage() {
   return (
     <main>
