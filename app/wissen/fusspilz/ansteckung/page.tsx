@@ -1,3 +1,10 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Ist Fußpilz ansteckend? Übertragungswege und Risiken",
+  description: "Wie wird Fußpilz übertragen? Erfahren Sie, wo das Ansteckungsrisiko besonders hoch ist, ob Sie andere anstecken können und wie lange eine Infektion ansteckend bleibt.",
+};
+
 export default function AnsteckungPage() {
   return (
     <main>
