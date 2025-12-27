@@ -5,13 +5,13 @@ export default function FusspilzPage() {
         <h1>Fußpilz – Überblick</h1>
         <nav>
           <ul>
-            <li>Was ist Fußpilz?</li>
-            <li>Ursachen von Fußpilz</li>
-            <li>Symptome von Fußpilz</li>
-            <li>Ist Fußpilz ansteckend?</li>
-            <li>Arten von Fußpilz</li>
-            <li>Behandlung von Fußpilz</li>
-            <li>Fußpilz vorbeugen</li>
+            <li><a href="/wissen/fusspilz/was-ist-fusspilz">Was ist Fußpilz?</a></li>
+            <li><a href="/wissen/fusspilz/ursachen">Ursachen von Fußpilz</a></li>
+            <li><a href="/wissen/fusspilz/symptome">Symptome von Fußpilz</a></li>
+            <li><a href="/wissen/fusspilz/ansteckung">Ist Fußpilz ansteckend?</a></li>
+            <li><a href="/wissen/fusspilz/arten">Arten von Fußpilz</a></li>
+            <li><a href="/wissen/fusspilz/behandlung">Behandlung von Fußpilz</a></li>
+            <li><a href="/wissen/fusspilz/vorbeugung">Fußpilz vorbeugen</a></li>
           </ul>
         </nav>
         <h2>Was ist Fußpilz?</h2>
