@@ -1,3 +1,10 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Symptome von Fußpilz – Anzeichen frühzeitig erkennen",
+  description: "Welche Symptome zeigt Fußpilz? Erfahren Sie, wie Sie typische Anzeichen erkennen, welche Unterschiede es je nach Fußbereich gibt und wann Beschwerden stärker werden.",
+};
+
 export default function SymptomePage() {
   return (
     <main>
