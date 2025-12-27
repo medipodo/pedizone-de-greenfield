@@ -1,3 +1,10 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Fußpilz – Ursachen, Symptome, Behandlung und Vorbeugung",
+  description: "Umfassender Überblick zu Fußpilz: Erfahren Sie, wie die Infektion entsteht, welche Symptome auftreten, wie sie behandelt wird und wie Sie vorbeugen können.",
+};
+
 export default function FusspilzPage() {
   return (
     <main>
