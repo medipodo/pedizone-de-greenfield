@@ -1,3 +1,10 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Was ist Fußpilz? Definition, Erreger und Verbreitung",
+  description: "Fußpilz ist eine häufige Pilzinfektion der Haut. Erfahren Sie, welche Erreger verantwortlich sind, welche Körperstellen betroffen sein können und wie verbreitet die Erkrankung ist.",
+};
+
 export default function WasIstFusspilzPage() {
   return (
     <main>
