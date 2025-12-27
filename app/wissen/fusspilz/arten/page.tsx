@@ -1,3 +1,10 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Arten von Fußpilz – Formen und Unterschiede im Überblick",
+  description: "Welche Arten von Fußpilz gibt es? Erfahren Sie mehr über den interdigitalen Typ, den Mokassin-Typ und den bläschenförmigen Fußpilz sowie deren unterschiedliche Verläufe.",
+};
+
 export default function ArtenPage() {
   return (
     <main>
