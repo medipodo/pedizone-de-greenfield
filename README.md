@@ -1,23 +1,28 @@
 # pedizone.de
 
-Greenfield SEO project.
+Greenfield SEO project for foot health information in German.
 
 ## Tech Stack
 
 - Next.js 16 (App Router)
 - TypeScript
+- Yarn (package manager)
 - File-based routing
 - Language: German (de-DE)
 
 ## Development
 
 ```bash
-npm run dev
+yarn dev
 ```
 
 ## Build
 
 ```bash
-npm run build
-npm run start
+yarn build
+yarn start
 ```
+
+## Deployment
+
+Automatic deployment via Vercel on push to `main` branch.
