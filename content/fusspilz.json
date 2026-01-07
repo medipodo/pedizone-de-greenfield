@@ -1,0 +1,398 @@
+{
+  "fusspilz": {
+    "pillar": {
+      "slug": "fusspilz",
+      "title": "Fußpilz – Ursachen, Symptome, Behandlung und Vorbeugung",
+      "description": "Umfassender Überblick zu Fußpilz: Erfahren Sie, wie die Infektion entsteht, welche Symptome auftreten, wie sie behandelt wird und wie Sie vorbeugen können.",
+      "h1": "Fußpilz – Überblick",
+      "lastModified": "2025-12-28",
+      "sections": [
+        {
+          "id": "was-ist-fusspilz",
+          "h2": "Was ist Fußpilz?",
+          "content": "Fußpilz ist eine häufige Pilzinfektion der Haut, die vor allem die Füße betrifft. Sie wird medizinisch als Tinea pedis bezeichnet und zählt zu den verbreitetsten Hauterkrankungen überhaupt."
+        },
+        {
+          "id": "wie-entsteht-fusspilz",
+          "h2": "Wie entsteht Fußpilz?",
+          "content": "Die Infektion entsteht, wenn bestimmte Pilze in die Haut eindringen. Feuchtigkeit, Wärme und eine geschwächte Hautbarriere begünstigen diesen Vorgang."
+        },
+        {
+          "id": "symptome",
+          "h2": "Welche Symptome treten bei Fußpilz auf?",
+          "content": "Typische Anzeichen sind Juckreiz, Rötungen, Schuppung und ein Spannungsgefühl. Die Beschwerden können je nach Ausprägung unterschiedlich stark sein."
+        },
+        {
+          "id": "ansteckung",
+          "h2": "Ist Fußpilz ansteckend?",
+          "content": "Ja, Fußpilz kann von Mensch zu Mensch oder über kontaminierte Oberflächen übertragen werden. Besonders in feuchten Umgebungen ist das Ansteckungsrisiko erhöht."
+        },
+        {
+          "id": "arten",
+          "h2": "Welche Arten von Fußpilz gibt es?",
+          "content": "Es werden verschiedene Erscheinungsformen unterschieden, darunter der interdigitale Typ, der Mokassin-Typ und der bläschenförmige Fußpilz. Jede Form zeigt sich durch unterschiedliche Hautveränderungen."
+        },
+        {
+          "id": "behandlung",
+          "h2": "Wie wird Fußpilz behandelt?",
+          "content": "In den meisten Fällen erfolgt die Behandlung lokal mit geeigneten Präparaten. Eine konsequente Anwendung über den empfohlenen Zeitraum ist wichtig für den Erfolg."
+        },
+        {
+          "id": "vorbeugung",
+          "h2": "Wie kann man Fußpilz vorbeugen?",
+          "content": "Vorbeugende Maßnahmen umfassen eine gute Fußhygiene, das Tragen atmungsaktiver Schuhe und das Vermeiden von Barfußlaufen in öffentlichen Nassbereichen."
+        },
+        {
+          "id": "arzt",
+          "h2": "Wann sollte man ärztlichen Rat einholen?",
+          "content": "Bei anhaltenden Beschwerden, ausbleibender Besserung trotz Behandlung oder Unsicherheiten bezüglich der Diagnose kann eine fachliche Abklärung sinnvoll sein."
+        }
+      ]
+    },
+    "articles": [
+      {
+        "slug": "was-ist-fusspilz",
+        "title": "Was ist Fußpilz? Definition, Erreger und Verbreitung",
+        "description": "Fußpilz ist eine häufige Pilzinfektion der Haut. Erfahren Sie, welche Erreger verantwortlich sind, welche Körperstellen betroffen sein können und wie verbreitet die Erkrankung ist.",
+        "h1": "Was ist Fußpilz?",
+        "lastModified": "2025-12-28",
+        "sections": [
+          {
+            "id": "definition",
+            "h2": "Definition von Fußpilz",
+            "paragraphs": [
+              "Fußpilz ist eine weit verbreitete Pilzinfektion der Haut an den Füßen. Medizinisch wird sie als Tinea pedis bezeichnet. Verursacht wird sie durch bestimmte Hautpilze, die sich von Keratin ernähren – einem Hauptbestandteil der menschlichen Haut. Diese Pilze können sich besonders gut vermehren, wenn die Haut feucht, warm oder aufgeweicht ist.",
+              "Typischerweise betrifft Fußpilz die Zehenzwischenräume, die Fußsohlen oder die seitlichen Fußränder. Die Erkrankung ist nicht gefährlich im akuten Sinn, kann aber ohne Behandlung hartnäckig verlaufen und sich weiter ausbreiten. Fußpilz ist keine seltene Ausnahme, sondern eine der häufigsten Hautinfektionen überhaupt."
+            ]
+          },
+          {
+            "id": "erreger",
+            "h2": "Welche Pilze verursachen Fußpilz?",
+            "paragraphs": [
+              "Die häufigsten Erreger von Fußpilz sind sogenannte Dermatophyten. Diese Pilzarten sind darauf spezialisiert, keratinhaltige Strukturen wie Haut, Haare oder Nägel zu besiedeln. In selteneren Fällen können auch Hefepilze oder Schimmelpilze beteiligt sein.",
+              "Dermatophyten kommen nahezu überall in der Umwelt vor. Ein Kontakt mit Pilzsporen lässt sich daher kaum vermeiden. Entscheidend ist nicht der Kontakt allein, sondern ob die Hautbarriere geschwächt ist und den Pilzen das Eindringen erleichtert. Gesunde, trockene Haut kann Pilzsporen häufig abwehren, ohne dass es zu einer Infektion kommt."
+            ]
+          },
+          {
+            "id": "koerperstellen",
+            "h2": "Welche Körperstellen sind betroffen?",
+            "paragraphs": [
+              "Fußpilz tritt nicht immer an derselben Stelle auf. Je nach Ausprägung und Erreger können unterschiedliche Bereiche betroffen sein. Besonders häufig sind die Haut zwischen den Zehen, die Fußsohlen sowie die seitlichen Ränder der Füße.",
+              "In einigen Fällen kann sich die Infektion auf weitere Bereiche ausbreiten, etwa auf die Nägel. Dann entsteht Nagelpilz, der deutlich schwieriger zu behandeln ist. Auch angrenzende Hautpartien können betroffen sein, wenn die Infektion über längere Zeit besteht oder unbehandelt bleibt."
+            ]
+          },
+          {
+            "id": "haeufigkeit",
+            "h2": "Wie häufig ist Fußpilz?",
+            "paragraphs": [
+              "Fußpilz zählt zu den häufigsten Hauterkrankungen in Deutschland. Ein großer Teil der erwachsenen Bevölkerung ist im Laufe des Lebens mindestens einmal betroffen. Männer erkranken etwas häufiger als Frauen, was unter anderem mit stärkerem Schwitzen und dem Tragen geschlossener Schuhe zusammenhängt.",
+              "Das Risiko steigt mit zunehmendem Alter, bestimmten Vorerkrankungen oder regelmäßigen Aufenthalten in feuchten Gemeinschaftsbereichen wie Schwimmbädern, Saunen oder Umkleiden. Trotz der hohen Verbreitung wird Fußpilz häufig unterschätzt oder nicht konsequent behandelt."
+            ]
+          },
+          {
+            "id": "nicht-harmlos",
+            "h2": "Warum Fußpilz nicht harmlos ist",
+            "paragraphs": [
+              "Fußpilz wird oft als harmlose Hautveränderung angesehen, da die Beschwerden anfangs mild sein können. Ohne gezielte Behandlung kann sich die Infektion jedoch ausbreiten, chronisch werden oder immer wieder auftreten.",
+              "Zudem erhöht unbehandelter Fußpilz das Risiko für Folgeprobleme wie bakterielle Hautinfektionen, schmerzhafte Hautrisse oder eine Ausbreitung auf die Nägel. Besonders bei Menschen mit Diabetes oder einem geschwächten Immunsystem können Komplikationen auftreten. Deshalb ist es sinnvoll, Fußpilz frühzeitig zu erkennen und ernst zu nehmen."
+            ]
+          }
+        ]
+      },
+      {
+        "slug": "ursachen",
+        "title": "Ursachen von Fußpilz – Risikofaktoren und Auslöser",
+        "description": "Wie entsteht Fußpilz? Erfahren Sie, welche Faktoren die Infektion begünstigen, warum Feuchtigkeit eine Rolle spielt und welche Erkrankungen das Risiko erhöhen.",
+        "h1": "Ursachen von Fußpilz",
+        "lastModified": "2025-12-28",
+        "sections": [
+          {
+            "id": "feuchtigkeit",
+            "h2": "Feuchtigkeit und Wärme als Hauptfaktoren",
+            "paragraphs": [
+              "Fußpilz entsteht bevorzugt in einer Umgebung, die feucht und warm ist. Solche Bedingungen fördern das Wachstum von Pilzen und erleichtern ihnen das Eindringen in die Haut. Schwitzende Füße, nasse Socken oder Schuhe, die kaum Luft durchlassen, schaffen ein ideales Milieu für Pilzsporen.",
+              "Bleibt die Haut über längere Zeit feucht, weicht sie auf und verliert einen Teil ihrer natürlichen Schutzfunktion. Dadurch können Pilze leichter in die oberen Hautschichten eindringen und sich dort vermehren."
+            ]
+          },
+          {
+            "id": "hautbarriere",
+            "h2": "Hautverletzungen und geschwächte Hautbarriere",
+            "paragraphs": [
+              "Kleine Verletzungen der Haut stellen eine häufige Eintrittspforte für Pilze dar. Dazu zählen feine Risse, aufgekratzte Stellen oder aufgeweichte Hautbereiche zwischen den Zehen. Auch eine generell geschwächte Hautbarriere erhöht das Risiko für eine Infektion.",
+              "Die Haut bildet normalerweise einen wirksamen Schutz gegen äußere Einflüsse. Ist diese Schutzfunktion beeinträchtigt, etwa durch häufiges Waschen, aggressive Reinigungsmittel oder dauerhafte Feuchtigkeit, können Pilze leichter Fuß fassen."
+            ]
+          },
+          {
+            "id": "risikofaktoren",
+            "h2": "Risikofaktoren im Alltag",
+            "paragraphs": [
+              "Bestimmte Alltagsgewohnheiten begünstigen die Entstehung von Fußpilz. Dazu gehören das Tragen enger oder schlecht belüfteter Schuhe, synthetische Sockenmaterialien sowie langes Verbleiben in feuchten Schuhen nach dem Sport.",
+              "Auch barfußes Gehen in öffentlichen Bereichen wie Schwimmbädern, Saunen oder Umkleiden erhöht das Risiko, mit Pilzsporen in Kontakt zu kommen. Diese Faktoren führen nicht zwangsläufig zu einer Infektion, erhöhen jedoch die Wahrscheinlichkeit deutlich."
+            ]
+          },
+          {
+            "id": "erkrankungen",
+            "h2": "Begünstigende Erkrankungen",
+            "paragraphs": [
+              "Einige Erkrankungen können die Entstehung von Fußpilz begünstigen. Dazu zählen unter anderem Diabetes mellitus, Durchblutungsstörungen oder Erkrankungen, die das Immunsystem schwächen. In solchen Fällen ist die Haut oft anfälliger für Infektionen.",
+              "Auch bestimmte Medikamente können die Abwehrkräfte beeinflussen. Betroffene sollten daher besonders auf die Pflege und den Schutz ihrer Füße achten, um das Risiko einer Pilzinfektion zu reduzieren."
+            ]
+          },
+          {
+            "id": "wiederkehr",
+            "h2": "Warum Fußpilz immer wiederkehrt",
+            "paragraphs": [
+              "Fußpilz neigt dazu, erneut aufzutreten, wenn die Ursachen nicht konsequent beseitigt werden. Wird die Behandlung zu früh beendet oder bleiben begünstigende Faktoren bestehen, können Pilzreste überleben und sich erneut vermehren.",
+              "Auch eine Wiederansteckung über Schuhe, Socken oder gemeinsam genutzte Oberflächen ist möglich. Deshalb ist es wichtig, neben der Behandlung auch auf hygienische Maßnahmen und eine geeignete Fußpflege zu achten."
+            ]
+          }
+        ]
+      },
+      {
+        "slug": "symptome",
+        "title": "Symptome von Fußpilz – Anzeichen frühzeitig erkennen",
+        "description": "Welche Symptome zeigt Fußpilz? Erfahren Sie, wie Sie typische Anzeichen erkennen, welche Unterschiede es je nach Fußbereich gibt und wann Beschwerden stärker werden.",
+        "h1": "Symptome von Fußpilz",
+        "lastModified": "2025-12-28",
+        "sections": [
+          {
+            "id": "typische-symptome",
+            "h2": "Typische Symptome von Fußpilz",
+            "paragraphs": [
+              "Fußpilz äußert sich durch verschiedene Hautveränderungen, die je nach Ausprägung unterschiedlich stark sein können. Zu den häufigsten Symptomen zählen Juckreiz, Rötungen und eine schuppige Hautoberfläche. Besonders typisch ist ein unangenehmes Spannungsgefühl, das vor allem nach längerem Tragen geschlossener Schuhe auftreten kann.",
+              "Die Beschwerden entwickeln sich oft schleichend. Anfangs sind die Symptome mild und werden leicht übersehen oder nicht ernst genommen. Ohne Behandlung können sie sich jedoch verstärken und auf weitere Hautbereiche ausbreiten."
+            ]
+          },
+          {
+            "id": "fruehe-anzeichen",
+            "h2": "Frühe Anzeichen erkennen",
+            "paragraphs": [
+              "Zu den frühen Anzeichen von Fußpilz gehören feine Schuppungen, leichte Rötungen oder ein gelegentliches Jucken, insbesondere zwischen den Zehen. Die Haut kann weich oder aufgeweicht wirken, vor allem wenn sie regelmäßig Feuchtigkeit ausgesetzt ist.",
+              "Gerade im Anfangsstadium wird Fußpilz häufig mit trockener Haut verwechselt. Bleiben die Veränderungen jedoch bestehen oder verschlechtern sich, kann dies ein Hinweis auf eine beginnende Pilzinfektion sein."
+            ]
+          },
+          {
+            "id": "unterschiede",
+            "h2": "Unterschiede je nach Fußbereich",
+            "paragraphs": [
+              "Die Symptome von Fußpilz können je nach betroffenem Bereich variieren. Zwischen den Zehen zeigt sich häufig eine weißlich aufgeweichte, rissige Haut. An den Fußsohlen oder -rändern kommt es eher zu trockenen, schuppenden Arealen mit Rötungen.",
+              "In manchen Fällen entstehen kleine Bläschen, die mit Flüssigkeit gefüllt sein können. Diese unterschiedlichen Erscheinungsformen erschweren es Betroffenen oft, Fußpilz eindeutig zu erkennen."
+            ]
+          },
+          {
+            "id": "verstaerkung",
+            "h2": "Wann Symptome stärker werden",
+            "paragraphs": [
+              "Die Beschwerden können sich verstärken, wenn die Haut über längere Zeit feucht bleibt oder zusätzlich gereizt wird. Enge, schlecht belüftete Schuhe, starkes Schwitzen oder mangelndes Abtrocknen der Füße begünstigen eine Verschlechterung der Symptome.",
+              "Auch Stress, ein geschwächtes Immunsystem oder bestimmte Grunderkrankungen können dazu beitragen, dass sich Fußpilz stärker ausprägt oder langsamer abheilt."
+            ]
+          },
+          {
+            "id": "abgrenzung",
+            "h2": "Abgrenzung zu anderen Hauterkrankungen",
+            "paragraphs": [
+              "Nicht jede Veränderung an den Füßen ist automatisch Fußpilz. Auch Ekzeme, Schuppenflechte oder allergische Reaktionen können ähnliche Symptome verursachen. Ein wichtiger Unterschied ist, dass Fußpilz meist langsam fortschreitet und sich ohne Behandlung nicht von selbst zurückbildet.",
+              "Bei Unsicherheiten oder anhaltenden Beschwerden kann eine fachliche Abklärung helfen, die Ursache der Symptome eindeutig zu bestimmen."
+            ]
+          }
+        ]
+      },
+      {
+        "slug": "ansteckung",
+        "title": "Ist Fußpilz ansteckend? Übertragungswege und Risiken",
+        "description": "Wie wird Fußpilz übertragen? Erfahren Sie, wo das Ansteckungsrisiko besonders hoch ist, ob Sie andere anstecken können und wie lange eine Infektion ansteckend bleibt.",
+        "h1": "Ist Fußpilz ansteckend?",
+        "lastModified": "2025-12-28",
+        "sections": [
+          {
+            "id": "uebertragung",
+            "h2": "Wie wird Fußpilz übertragen?",
+            "paragraphs": [
+              "Fußpilz wird durch Pilzsporen übertragen, die sich auf der Haut oder auf Oberflächen befinden können. Der Kontakt erfolgt entweder direkt von Mensch zu Mensch oder indirekt über gemeinsam genutzte Flächen. Besonders feuchte Umgebungen begünstigen das Überleben und die Weitergabe der Erreger.",
+              "Gelangen die Pilzsporen auf eine Haut, deren Schutzbarriere geschwächt ist, können sie in die oberen Hautschichten eindringen und eine Infektion auslösen. Nicht jeder Kontakt führt jedoch automatisch zu einer Erkrankung."
+            ]
+          },
+          {
+            "id": "alltag",
+            "h2": "Ansteckungsrisiko im Alltag",
+            "paragraphs": [
+              "Im Alltag gibt es zahlreiche Situationen, in denen ein Kontakt mit Pilzsporen möglich ist. Dazu zählen vor allem Orte, an denen viele Menschen barfuß unterwegs sind oder sich Feuchtigkeit sammelt. Das individuelle Ansteckungsrisiko hängt jedoch stark vom Zustand der Haut ab.",
+              "Trockene, intakte Haut kann Pilzsporen häufig abwehren. Steht die Haut jedoch unter Stress, etwa durch Schwitzen oder kleine Verletzungen, steigt die Wahrscheinlichkeit einer Infektion."
+            ]
+          },
+          {
+            "id": "oeffentliche-bereiche",
+            "h2": "Rolle von öffentlichen Bereichen",
+            "paragraphs": [
+              "Öffentliche Bereiche wie Schwimmbäder, Saunen, Duschen oder Umkleiden gelten als typische Orte für die Übertragung von Fußpilz. Dort können Pilzsporen auf Böden, Matten oder Sitzflächen überleben und leicht auf die Haut gelangen.",
+              "Das Barfußlaufen in solchen Bereichen erhöht das Risiko zusätzlich. Deshalb wird häufig empfohlen, in öffentlichen Nassbereichen geeignete Badeschuhe zu tragen."
+            ]
+          },
+          {
+            "id": "andere-anstecken",
+            "h2": "Kann man andere anstecken?",
+            "paragraphs": [
+              "Menschen mit Fußpilz können andere anstecken, insbesondere wenn gemeinsame Flächen oder Gegenstände genutzt werden. Dazu zählen Handtücher, Teppiche oder gemeinsam verwendete Schuhe. Die Übertragung erfolgt dabei meist unbemerkt.",
+              "Eine Ansteckung bedeutet jedoch nicht zwangsläufig, dass es zu einer Erkrankung kommt. Entscheidend ist erneut, ob die Haut der Kontaktperson widerstandsfähig genug ist, um die Pilzsporen abzuwehren."
+            ]
+          },
+          {
+            "id": "dauer",
+            "h2": "Wie lange Fußpilz ansteckend ist",
+            "paragraphs": [
+              "Fußpilz kann so lange ansteckend sein, wie aktive Pilze auf der Haut vorhanden sind. Auch wenn die sichtbaren Symptome nachlassen, können Pilzreste bestehen bleiben, wenn die Behandlung nicht konsequent durchgeführt wird.",
+              "Aus diesem Grund ist es wichtig, eine Therapie ausreichend lange fortzusetzen und begleitende Hygienemaßnahmen einzuhalten, um eine Weiterverbreitung zu vermeiden."
+            ]
+          }
+        ]
+      },
+      {
+        "slug": "arten",
+        "title": "Arten von Fußpilz – Formen und Unterschiede im Überblick",
+        "description": "Welche Arten von Fußpilz gibt es? Erfahren Sie mehr über den interdigitalen Typ, den Mokassin-Typ und den bläschenförmigen Fußpilz sowie deren unterschiedliche Verläufe.",
+        "h1": "Arten von Fußpilz",
+        "lastModified": "2025-12-28",
+        "sections": [
+          {
+            "id": "haeufige-arten",
+            "h2": "Häufige Arten von Fußpilz",
+            "paragraphs": [
+              "Fußpilz kann in unterschiedlichen Formen auftreten, die sich in ihrem Erscheinungsbild und Verlauf unterscheiden. Allen gemeinsam ist, dass sie durch Hautpilze verursacht werden und bevorzugt feuchte, warme Hautbereiche befallen.",
+              "Die Einteilung in verschiedene Arten hilft dabei, typische Symptome besser einzuordnen und den Verlauf der Erkrankung zu verstehen."
+            ]
+          },
+          {
+            "id": "interdigital",
+            "h2": "Interdigitaler Fußpilz",
+            "paragraphs": [
+              "Der interdigitale Fußpilz ist die häufigste Form. Er betrifft vor allem die Haut zwischen den Zehen. Typisch sind Juckreiz, Rötungen, Schuppung sowie eine weißlich aufgeweichte Haut, die zu kleinen Rissen neigen kann.",
+              "Diese Form wird oft spät erkannt, da die Veränderungen anfangs mild erscheinen. Bleibt sie unbehandelt, kann sich die Infektion ausbreiten."
+            ]
+          },
+          {
+            "id": "mokassin",
+            "h2": "Mokassin-Typ",
+            "paragraphs": [
+              "Beim sogenannten Mokassin-Typ erstreckt sich der Fußpilz über größere Flächen der Fußsohlen und -ränder. Die Haut wirkt dabei trocken, schuppig und teilweise verdickt. Rötungen sind oft weniger ausgeprägt, was die Erkennung erschweren kann.",
+              "Diese Form verläuft häufig chronisch und wird nicht selten mit trockener Haut verwechselt."
+            ]
+          },
+          {
+            "id": "blaeschen",
+            "h2": "Bläschenförmiger Fußpilz",
+            "paragraphs": [
+              "Der bläschenförmige Fußpilz äußert sich durch kleine, mit Flüssigkeit gefüllte Bläschen, die vor allem am Fußgewölbe oder an den Seiten der Füße auftreten. Die Bläschen können platzen und nässende Hautstellen hinterlassen.",
+              "Diese Form tritt seltener auf, kann jedoch mit starkem Juckreiz verbunden sein."
+            ]
+          },
+          {
+            "id": "verlauf",
+            "h2": "Unterschiede im Krankheitsverlauf",
+            "paragraphs": [
+              "Je nach Art des Fußpilzes kann der Krankheitsverlauf unterschiedlich sein. Manche Formen entwickeln sich langsam und unauffällig, andere verursachen schneller Beschwerden.",
+              "Ohne geeignete Behandlung können alle Formen chronisch werden oder auf andere Hautbereiche und die Nägel übergehen."
+            ]
+          }
+        ]
+      },
+      {
+        "slug": "behandlung",
+        "title": "Behandlung von Fußpilz – Grundlagen und Hinweise",
+        "description": "Wie wird Fußpilz behandelt? Erfahren Sie mehr über lokale Behandlungsmöglichkeiten, wann ärztlicher Rat sinnvoll ist und welche Fehler häufig gemacht werden.",
+        "h1": "Behandlung von Fußpilz",
+        "lastModified": "2025-12-28",
+        "sections": [
+          {
+            "id": "grundprinzipien",
+            "h2": "Grundprinzipien der Behandlung",
+            "paragraphs": [
+              "Die Behandlung von Fußpilz zielt darauf ab, die verursachenden Pilze zu bekämpfen und die Haut dabei zu unterstützen, sich zu regenerieren. Grundsätzlich gilt: Je früher eine Behandlung beginnt, desto einfacher und kürzer verläuft sie in vielen Fällen.",
+              "Wichtig ist eine konsequente und ausreichend lange Anwendung der gewählten Maßnahmen. Auch wenn sich die Symptome frühzeitig bessern, können noch Pilzreste vorhanden sein."
+            ]
+          },
+          {
+            "id": "lokal",
+            "h2": "Lokale Behandlungsmöglichkeiten",
+            "paragraphs": [
+              "In den meisten Fällen wird Fußpilz lokal behandelt. Dabei kommen äußerlich anzuwendende Präparate zum Einsatz, die das Wachstum der Pilze hemmen oder diese abtöten können. Die Anwendung erfolgt direkt auf den betroffenen Hautstellen.",
+              "Eine regelmäßige Anwendung über den empfohlenen Zeitraum ist entscheidend für den Behandlungserfolg. Zusätzlich spielt eine gute Fußhygiene eine wichtige Rolle."
+            ]
+          },
+          {
+            "id": "arzt",
+            "h2": "Wann eine ärztliche Behandlung nötig ist",
+            "paragraphs": [
+              "Nicht jeder Fußpilz lässt sich problemlos selbst behandeln. Eine ärztliche Abklärung kann sinnvoll sein, wenn sich die Beschwerden trotz Behandlung nicht bessern, sich ausbreiten oder immer wiederkehren.",
+              "Auch bei bestimmten Vorerkrankungen oder Unsicherheiten bezüglich der Diagnose sollte fachlicher Rat eingeholt werden."
+            ]
+          },
+          {
+            "id": "dauer",
+            "h2": "Behandlungsdauer und Geduld",
+            "paragraphs": [
+              "Die Dauer der Behandlung kann je nach Ausprägung der Infektion variieren. In vielen Fällen ist Geduld erforderlich, da Pilzinfektionen nicht von heute auf morgen verschwinden.",
+              "Ein zu frühes Abbrechen der Behandlung erhöht das Risiko, dass der Fußpilz erneut auftritt oder chronisch wird."
+            ]
+          },
+          {
+            "id": "fehler",
+            "h2": "Häufige Fehler bei der Behandlung",
+            "paragraphs": [
+              "Zu den häufigsten Fehlern zählt eine unregelmäßige Anwendung oder ein vorzeitiges Beenden der Behandlung. Auch das Vernachlässigen begleitender Maßnahmen, wie das Trocknen der Füße oder das Wechseln von Socken, kann den Behandlungserfolg beeinträchtigen.",
+              "Eine konsequente Vorgehensweise unterstützt die vollständige Abheilung der Infektion."
+            ]
+          }
+        ]
+      },
+      {
+        "slug": "vorbeugung",
+        "title": "Fußpilz vorbeugen – Hygiene, Schuhe und Alltagstipps",
+        "description": "Wie lässt sich Fußpilz vorbeugen? Erfahren Sie, welche Hygienemaßnahmen helfen, worauf Sie bei Schuhen achten sollten und wie Sie Rückfälle vermeiden können.",
+        "h1": "Fußpilz vorbeugen",
+        "lastModified": "2025-12-28",
+        "sections": [
+          {
+            "id": "wichtigkeit",
+            "h2": "Warum Vorbeugung wichtig ist",
+            "paragraphs": [
+              "Fußpilz neigt dazu, nach einer überstandenen Infektion erneut aufzutreten. Eine gezielte Vorbeugung hilft dabei, Rückfälle zu vermeiden und die Haut langfristig zu schützen. Besonders nach einer erfolgreichen Behandlung ist es wichtig, begünstigende Faktoren im Alltag zu reduzieren.",
+              "Vorbeugende Maßnahmen unterstützen die natürliche Hautbarriere und erschweren es Pilzsporen, sich erneut anzusiedeln."
+            ]
+          },
+          {
+            "id": "hygiene",
+            "h2": "Hygienemaßnahmen im Alltag",
+            "paragraphs": [
+              "Eine gute Fußhygiene spielt eine zentrale Rolle bei der Vorbeugung von Fußpilz. Dazu gehört das tägliche Waschen der Füße sowie ein sorgfältiges Abtrocknen, insbesondere in den Zehenzwischenräumen.",
+              "Auch das regelmäßige Wechseln von Socken und Handtüchern kann dazu beitragen, die Verbreitung von Pilzsporen zu reduzieren."
+            ]
+          },
+          {
+            "id": "schuhe",
+            "h2": "Richtiges Schuh- und Sockenverhalten",
+            "paragraphs": [
+              "Atmungsaktive Schuhe und geeignete Sockenmaterialien helfen dabei, Feuchtigkeit an den Füßen zu verringern. Schuhe sollten regelmäßig gewechselt und ausreichend gelüftet werden, damit sie vollständig trocknen können.",
+              "Enge oder schlecht belüftete Schuhe begünstigen ein feucht-warmes Klima, das Pilzen optimale Bedingungen bietet."
+            ]
+          },
+          {
+            "id": "oeffentlich",
+            "h2": "Vorbeugung in öffentlichen Bereichen",
+            "paragraphs": [
+              "In öffentlichen Nassbereichen wie Schwimmbädern, Saunen oder Gemeinschaftsduschen ist das Tragen von geeignetem Schuhwerk sinnvoll. Dadurch wird der direkte Kontakt der Haut mit möglicherweise kontaminierten Oberflächen reduziert.",
+              "Auch das gründliche Abtrocknen der Füße nach dem Aufenthalt in solchen Bereichen ist eine einfache, aber wirksame Maßnahme."
+            ]
+          },
+          {
+            "id": "rueckfaelle",
+            "h2": "Rückfälle vermeiden",
+            "paragraphs": [
+              "Um Rückfälle zu vermeiden, ist es wichtig, vorbeugende Maßnahmen dauerhaft in den Alltag zu integrieren. Dazu zählen neben Hygiene und geeignetem Schuhwerk auch eine bewusste Beobachtung der Hautveränderungen an den Füßen.",
+              "Bei ersten Anzeichen einer erneuten Infektion kann ein frühzeitiges Handeln helfen, einen erneuten Ausbruch zu verhindern."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
