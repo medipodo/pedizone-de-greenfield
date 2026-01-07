@@ -1,69 +1,39 @@
 import { MetadataRoute } from "next";
+import { getAllArticles, getPillarData, BASE_URL } from "@/lib/content";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://pedizone-de-greenfield.vercel.app";
-  const currentDate = new Date();
+  const pillar = getPillarData();
+  const articles = getAllArticles();
 
-  return [
+  // Static pages
+  const staticPages: MetadataRoute.Sitemap = [
     {
-      url: baseUrl,
-      lastModified: currentDate,
+      url: BASE_URL,
+      lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 0.6,
     },
     {
-      url: `${baseUrl}/wissen`,
-      lastModified: currentDate,
+      url: `${BASE_URL}/wissen`,
+      lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 0.6,
     },
     {
-      url: `${baseUrl}/wissen/fusspilz`,
-      lastModified: currentDate,
+      url: `${BASE_URL}/wissen/fusspilz`,
+      lastModified: new Date(pillar.lastModified),
       changeFrequency: "monthly",
       priority: 0.9,
     },
-    {
-      url: `${baseUrl}/wissen/fusspilz/was-ist-fusspilz`,
-      lastModified: currentDate,
-      changeFrequency: "monthly",
-      priority: 0.7,
-    },
-    {
-      url: `${baseUrl}/wissen/fusspilz/ursachen`,
-      lastModified: currentDate,
-      changeFrequency: "monthly",
-      priority: 0.7,
-    },
-    {
-      url: `${baseUrl}/wissen/fusspilz/symptome`,
-      lastModified: currentDate,
-      changeFrequency: "monthly",
-      priority: 0.7,
-    },
-    {
-      url: `${baseUrl}/wissen/fusspilz/ansteckung`,
-      lastModified: currentDate,
-      changeFrequency: "monthly",
-      priority: 0.7,
-    },
-    {
-      url: `${baseUrl}/wissen/fusspilz/arten`,
-      lastModified: currentDate,
-      changeFrequency: "monthly",
-      priority: 0.7,
-    },
-    {
-      url: `${baseUrl}/wissen/fusspilz/behandlung`,
-      lastModified: currentDate,
-      changeFrequency: "monthly",
-      priority: 0.7,
-    },
-    {
-      url: `${baseUrl}/wissen/fusspilz/vorbeugung`,
-      lastModified: currentDate,
-      changeFrequency: "monthly",
-      priority: 0.7,
-    },
   ];
+
+  // Dynamic article pages
+  const articlePages: MetadataRoute.Sitemap = articles.map((article) => ({
+    url: `${BASE_URL}/wissen/fusspilz/${article.slug}`,
+    lastModified: new Date(article.lastModified),
+    changeFrequency: "monthly",
+    priority: 0.7,
+  }));
+
+  return [...staticPages, ...articlePages];
 }
