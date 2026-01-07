@@ -1,67 +1,95 @@
-import type { Metadata } from "next";
+import { Metadata } from "next";
+import { getPillarData, getAllArticles, BASE_URL } from "@/lib/content";
+import {
+  generateBreadcrumbSchema,
+  generateArticleSchema,
+  BreadcrumbItem,
+} from "@/lib/schema";
+import { TableOfContents } from "@/components/TableOfContents";
+import { Breadcrumb } from "@/components/Breadcrumb";
+
+const pillar = getPillarData();
+const articles = getAllArticles();
+const canonicalUrl = `${BASE_URL}/wissen/fusspilz`;
 
 export const metadata: Metadata = {
-  title: "Fußpilz – Ursachen, Symptome, Behandlung und Vorbeugung",
-  description: "Umfassender Überblick zu Fußpilz: Erfahren Sie, wie die Infektion entsteht, welche Symptome auftreten, wie sie behandelt wird und wie Sie vorbeugen können.",
+  title: pillar.title,
+  description: pillar.description,
+  alternates: {
+    canonical: canonicalUrl,
+  },
+  openGraph: {
+    title: pillar.title,
+    description: pillar.description,
+    url: canonicalUrl,
+    type: "article",
+    locale: "de_DE",
+  },
 };
 
 export default function FusspilzPage() {
+  // Breadcrumb data
+  const breadcrumbItems: BreadcrumbItem[] = [
+    { name: "Startseite", url: BASE_URL },
+    { name: "Wissen", url: `${BASE_URL}/wissen` },
+    { name: "Fußpilz", url: canonicalUrl },
+  ];
+
+  // Schema data
+  const breadcrumbSchema = generateBreadcrumbSchema(breadcrumbItems);
+  const articleSchema = generateArticleSchema({
+    headline: pillar.h1,
+    description: pillar.description,
+    url: canonicalUrl,
+    datePublished: pillar.lastModified,
+    dateModified: pillar.lastModified,
+  });
+
   return (
-    <main>
-      <article>
-        <h1>Fußpilz – Überblick</h1>
-        <nav>
-          <ul>
-            <li><a href="/wissen/fusspilz/was-ist-fusspilz">Was ist Fußpilz?</a></li>
-            <li><a href="/wissen/fusspilz/ursachen">Ursachen von Fußpilz</a></li>
-            <li><a href="/wissen/fusspilz/symptome">Symptome von Fußpilz</a></li>
-            <li><a href="/wissen/fusspilz/ansteckung">Ist Fußpilz ansteckend?</a></li>
-            <li><a href="/wissen/fusspilz/arten">Arten von Fußpilz</a></li>
-            <li><a href="/wissen/fusspilz/behandlung">Behandlung von Fußpilz</a></li>
-            <li><a href="/wissen/fusspilz/vorbeugung">Fußpilz vorbeugen</a></li>
-          </ul>
-        </nav>
+    <>
+      {/* JSON-LD Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(breadcrumbSchema),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(articleSchema),
+        }}
+      />
 
-        <h2>Was ist Fußpilz?</h2>
-        <p>
-          Fußpilz ist eine häufige Pilzinfektion der Haut, die vor allem die Füße betrifft. Sie wird medizinisch als Tinea pedis bezeichnet und zählt zu den verbreitetsten Hauterkrankungen überhaupt.
-        </p>
+      <main>
+        <Breadcrumb items={breadcrumbItems} />
 
-        <h2>Wie entsteht Fußpilz?</h2>
-        <p>
-          Die Infektion entsteht, wenn bestimmte Pilze in die Haut eindringen. Feuchtigkeit, Wärme und eine geschwächte Hautbarriere begünstigen diesen Vorgang.
-        </p>
+        <article>
+          <h1>{pillar.h1}</h1>
 
-        <h2>Welche Symptome treten bei Fußpilz auf?</h2>
-        <p>
-          Typische Anzeichen sind Juckreiz, Rötungen, Schuppung und ein Spannungsgefühl. Die Beschwerden können je nach Ausprägung unterschiedlich stark sein.
-        </p>
+          {/* Navigation to satellite pages */}
+          <nav>
+            <ul>
+              {articles.map((article) => (
+                <li key={article.slug}>
+                  <a href={`/wissen/fusspilz/${article.slug}`}>
+                    {article.h1}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </nav>
 
-        <h2>Ist Fußpilz ansteckend?</h2>
-        <p>
-          Ja, Fußpilz kann von Mensch zu Mensch oder über kontaminierte Oberflächen übertragen werden. Besonders in feuchten Umgebungen ist das Ansteckungsrisiko erhöht.
-        </p>
+          <TableOfContents sections={pillar.sections} />
 
-        <h2>Welche Arten von Fußpilz gibt es?</h2>
-        <p>
-          Es werden verschiedene Erscheinungsformen unterschieden, darunter der interdigitale Typ, der Mokassin-Typ und der bläschenförmige Fußpilz. Jede Form zeigt sich durch unterschiedliche Hautveränderungen.
-        </p>
-
-        <h2>Wie wird Fußpilz behandelt?</h2>
-        <p>
-          In den meisten Fällen erfolgt die Behandlung lokal mit geeigneten Präparaten. Eine konsequente Anwendung über den empfohlenen Zeitraum ist wichtig für den Erfolg.
-        </p>
-
-        <h2>Wie kann man Fußpilz vorbeugen?</h2>
-        <p>
-          Vorbeugende Maßnahmen umfassen eine gute Fußhygiene, das Tragen atmungsaktiver Schuhe und das Vermeiden von Barfußlaufen in öffentlichen Nassbereichen.
-        </p>
-
-        <h2>Wann sollte man ärztlichen Rat einholen?</h2>
-        <p>
-          Bei anhaltenden Beschwerden, ausbleibender Besserung trotz Behandlung oder Unsicherheiten bezüglich der Diagnose kann eine fachliche Abklärung sinnvoll sein.
-        </p>
-      </article>
-    </main>
+          {pillar.sections.map((section) => (
+            <section key={section.id} id={section.id}>
+              <h2>{section.h2}</h2>
+              {section.content && <p>{section.content}</p>}
+            </section>
+          ))}
+        </article>
+      </main>
+    </>
   );
 }
