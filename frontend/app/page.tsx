@@ -14,8 +14,18 @@ export default function HomePage() {
   return (
     <div>
       {/* Hero Section */}
-      <section className="bg-gradient-to-b from-medical-50 to-white py-16 sm:py-24">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <section className="relative bg-gradient-to-b from-medical-50 to-white py-16 sm:py-24 overflow-hidden">
+        {/* Background Image with Overlay */}
+        <div className="absolute inset-0 opacity-5">
+          <Image 
+            src="/images/fusspilz-vorbeugung-hygiene.webp"
+            alt="Background"
+            fill
+            className="object-cover"
+          />
+        </div>
+        
+        <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl sm:text-5xl font-bold text-medical-800 mb-6 text-balance">
             Ihr Ratgeber für{' '}
             <span className="text-primary-600">Fußgesundheit</span>
@@ -53,6 +63,29 @@ export default function HomePage() {
               <div className="text-3xl mb-2">🛡️</div>
               <h3 className="text-sm font-semibold text-medical-700">Vertrauenswürdig</h3>
               <p className="text-xs text-medical-500 mt-1">Unabhängig und transparent</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Statistics Section */}
+      <section className="py-16 bg-gradient-to-r from-primary-50 via-medical-50 to-primary-50">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-2xl font-bold text-medical-800 mb-10 text-center">
+            Fußpilz in Zahlen
+          </h2>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-8">
+            <div className="text-center p-6 bg-white rounded-xl shadow-sm">
+              <div className="text-4xl font-bold text-primary-600 mb-2">bis zu 30%</div>
+              <p className="text-sm text-medical-600">der Deutschen sind im Laufe ihres Lebens betroffen</p>
+            </div>
+            <div className="text-center p-6 bg-white rounded-xl shadow-sm">
+              <div className="text-4xl font-bold text-primary-600 mb-2">2-4 Wochen</div>
+              <p className="text-sm text-medical-600">durchschnittliche Behandlungsdauer bei konsequenter Therapie</p>
+            </div>
+            <div className="text-center p-6 bg-white rounded-xl shadow-sm">
+              <div className="text-4xl font-bold text-primary-600 mb-2">90%+</div>
+              <p className="text-sm text-medical-600">Erfolgsrate bei richtiger und vollständiger Behandlung</p>
             </div>
           </div>
         </div>
@@ -144,6 +177,155 @@ export default function HomePage() {
                 </p>
               </div>
             </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Quick Facts - Wussten Sie? */}
+      <section className="py-16 bg-white">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-2xl font-bold text-medical-800 mb-10 text-center">
+            Wussten Sie schon?
+          </h2>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+            <div className="p-6 border-2 border-orange-200 bg-orange-50 rounded-xl">
+              <div className="text-3xl mb-3">🔄</div>
+              <h3 className="font-semibold text-medical-800 mb-2">Hochansteckend</h3>
+              <p className="text-sm text-medical-600">
+                Fußpilz ist ansteckend – auch im eigenen Haushalt. Gemeinsame Handtücher sollten vermieden werden.
+              </p>
+            </div>
+            <div className="p-6 border-2 border-blue-200 bg-blue-50 rounded-xl">
+              <div className="text-3xl mb-3">⚽</div>
+              <h3 className="font-semibold text-medical-800 mb-2">Sportler-Risiko</h3>
+              <p className="text-sm text-medical-600">
+                Sportler haben ein 3x höheres Risiko für Fußpilz durch feuchte Schuhe und Umkleidekabinen.
+              </p>
+            </div>
+            <div className="p-6 border-2 border-purple-200 bg-purple-50 rounded-xl">
+              <div className="text-3xl mb-3">⚠️</div>
+              <h3 className="font-semibold text-medical-800 mb-2">Kann sich ausbreiten</h3>
+              <p className="text-sm text-medical-600">
+                Unbehandelt kann sich Fußpilz auf die Nägel ausbreiten und chronisch werden.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Self-Check CTA */}
+      <section className="py-16 bg-gradient-to-br from-primary-600 to-primary-700">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
+          <h2 className="text-2xl sm:text-3xl font-bold mb-6">
+            Haben Sie Fußpilz?
+          </h2>
+          <p className="text-lg mb-8 opacity-90">
+            Prüfen Sie die typischen Symptome:
+          </p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8 text-left">
+            <div className="flex items-start space-x-3 bg-white/10 backdrop-blur-sm p-4 rounded-lg">
+              <svg className="w-6 h-6 text-white flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
+              </svg>
+              <span>Juckreiz zwischen den Zehen?</span>
+            </div>
+            <div className="flex items-start space-x-3 bg-white/10 backdrop-blur-sm p-4 rounded-lg">
+              <svg className="w-6 h-6 text-white flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
+              </svg>
+              <span>Rötung oder Schuppung?</span>
+            </div>
+            <div className="flex items-start space-x-3 bg-white/10 backdrop-blur-sm p-4 rounded-lg">
+              <svg className="w-6 h-6 text-white flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
+              </svg>
+              <span>Brennen oder Schmerzen?</span>
+            </div>
+            <div className="flex items-start space-x-3 bg-white/10 backdrop-blur-sm p-4 rounded-lg">
+              <svg className="w-6 h-6 text-white flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
+              </svg>
+              <span>Unangenehmer Geruch?</span>
+            </div>
+          </div>
+          <Link 
+            href="/wissen/fusspilz/symptome"
+            className="inline-flex items-center px-8 py-4 bg-white text-primary-600 font-semibold rounded-lg hover:bg-gray-50 transition-colors shadow-lg"
+          >
+            Mehr über Symptome erfahren
+            <svg className="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+            </svg>
+          </Link>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="py-16 bg-medical-50">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-2xl font-bold text-medical-800 mb-10 text-center">
+            Häufigste Fragen
+          </h2>
+          <div className="space-y-4">
+            <details className="group bg-white p-6 rounded-xl shadow-sm border border-medical-100">
+              <summary className="font-semibold text-medical-800 cursor-pointer flex justify-between items-center">
+                Wie lange dauert die Behandlung von Fußpilz?
+                <svg className="w-5 h-5 text-medical-400 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+              </summary>
+              <p className="mt-4 text-medical-600 text-sm">
+                Die Behandlung dauert in der Regel 2-4 Wochen bei konsequenter Anwendung von Antimykotika. Wichtig ist, die Behandlung auch nach Abklingen der Symptome fortzusetzen, um Rückfälle zu vermeiden.
+              </p>
+            </details>
+
+            <details className="group bg-white p-6 rounded-xl shadow-sm border border-medical-100">
+              <summary className="font-semibold text-medical-800 cursor-pointer flex justify-between items-center">
+                Ist Fußpilz gefährlich?
+                <svg className="w-5 h-5 text-medical-400 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+              </summary>
+              <p className="mt-4 text-medical-600 text-sm">
+                Fußpilz ist in der Regel nicht gefährlich, aber unangenehm. Unbehandelt kann er sich ausbreiten, chronisch werden und zu Nagelpilz führen. Bei Diabetikern oder immungeschwächten Personen sollte besondere Vorsicht gelten.
+              </p>
+            </details>
+
+            <details className="group bg-white p-6 rounded-xl shadow-sm border border-medical-100">
+              <summary className="font-semibold text-medical-800 cursor-pointer flex justify-between items-center">
+                Kann ich mit Fußpilz Sport machen?
+                <svg className="w-5 h-5 text-medical-400 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+              </summary>
+              <p className="mt-4 text-medical-600 text-sm">
+                Ja, Sport ist möglich. Wichtig ist, atmungsaktive Schuhe zu tragen, die Füße nach dem Sport gründlich zu trocknen und Gemeinschaftsduschen mit Badeschuhen zu nutzen, um andere nicht anzustecken.
+              </p>
+            </details>
+
+            <details className="group bg-white p-6 rounded-xl shadow-sm border border-medical-100">
+              <summary className="font-semibold text-medical-800 cursor-pointer flex justify-between items-center">
+                Kann Fußpilz von selbst verschwinden?
+                <svg className="w-5 h-5 text-medical-400 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+              </summary>
+              <p className="mt-4 text-medical-600 text-sm">
+                Nein, Fußpilz verschwindet nicht von selbst. Ohne Behandlung kann er chronisch werden und sich ausbreiten. Eine antimykotische Behandlung ist notwendig, um die Pilzinfektion vollständig zu beseitigen.
+              </p>
+            </details>
+
+            <details className="group bg-white p-6 rounded-xl shadow-sm border border-medical-100">
+              <summary className="font-semibold text-medical-800 cursor-pointer flex justify-between items-center">
+                Wie kann ich Fußpilz vorbeugen?
+                <svg className="w-5 h-5 text-medical-400 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+              </summary>
+              <p className="mt-4 text-medical-600 text-sm">
+                Halten Sie Ihre Füße trocken, wechseln Sie täglich Socken, tragen Sie atmungsaktive Schuhe, nutzen Sie Badeschuhe in öffentlichen Bereichen und trocknen Sie Zehenzwischenräume gründlich ab. <Link href="/wissen/fusspilz/vorbeugung" className="text-primary-600 hover:underline">Mehr Tipps zur Vorbeugung</Link>
+              </p>
+            </details>
           </div>
         </div>
       </section>

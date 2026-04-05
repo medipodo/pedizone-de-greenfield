@@ -40,6 +40,11 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/wissen/fusspilz/ursachen/page.js"
+    ],
+    "/wissen/fusspilz/symptome/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/wissen/fusspilz/symptome/page.js"
     ]
   }
 }

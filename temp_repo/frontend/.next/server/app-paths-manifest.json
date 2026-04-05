@@ -1,8 +1,6 @@
 {
   "/wissen/fusspilz/page": "app/wissen/fusspilz/page.js",
-  "/page": "app/page.js",
   "/wissen/fusspilz/behandlung/page": "app/wissen/fusspilz/behandlung/page.js",
   "/wissen/page": "app/wissen/page.js",
-  "/wissen/fusspilz/ansteckung/page": "app/wissen/fusspilz/ansteckung/page.js",
-  "/wissen/fusspilz/ursachen/page": "app/wissen/fusspilz/ursachen/page.js"
+  "/page": "app/page.js"
 }
