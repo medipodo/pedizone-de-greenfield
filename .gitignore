@@ -107,3 +107,7 @@ temp_repo/frontend/node_modules/@next/swc-linux-arm64-musl/next-swc.linux-arm64-
 *.env.*
 temp_github_clone/
 temp_repo/
+-e 
+# Environment files
+*.env
+*.env.*
