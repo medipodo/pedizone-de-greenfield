@@ -1,0 +1,5 @@
+{
+  "/wissen/fusspilz/page": "app/wissen/fusspilz/page.js",
+  "/page": "app/page.js",
+  "/wissen/fusspilz/behandlung/page": "app/wissen/fusspilz/behandlung/page.js"
+}
