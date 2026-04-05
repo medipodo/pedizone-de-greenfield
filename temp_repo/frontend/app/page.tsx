@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
@@ -64,42 +65,81 @@ export default function HomePage() {
             Beliebte Themen
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-            <Link href="/wissen/fusspilz/was-ist-fusspilz" className="group">
-              <div className="p-6 bg-white border border-medical-100 rounded-lg hover:border-primary-200 hover:shadow-md transition-all">
-                <h3 className="font-semibold text-medical-800 group-hover:text-primary-600 transition-colors">
+            <Link href="/wissen/fusspilz/was-ist-fusspilz" className="group bg-white border-2 border-medical-100 rounded-xl hover:border-primary-400 hover:shadow-xl transition-all overflow-hidden">
+              <div className="relative h-48 w-full overflow-hidden bg-gradient-to-br from-medical-50 to-primary-50">
+                <Image 
+                  src="/images/fusspilz-anfangsstadium.webp"
+                  alt="Was ist Fußpilz - Anfangsstadium"
+                  fill
+                  className="object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-semibold text-medical-800 mb-2 group-hover:text-primary-600 transition-colors">
                   Was ist Fußpilz?
                 </h3>
-                <p className="text-sm text-medical-500 mt-2">
+                <p className="text-sm text-medical-600">
                   Grundlegende Informationen über Tinea pedis und wie Sie die Erkrankung erkennen.
                 </p>
               </div>
             </Link>
-            <Link href="/wissen/fusspilz/behandlung" className="group">
-              <div className="p-6 bg-white border border-medical-100 rounded-lg hover:border-primary-200 hover:shadow-md transition-all">
-                <h3 className="font-semibold text-medical-800 group-hover:text-primary-600 transition-colors">
+
+            <Link href="/wissen/fusspilz/behandlung" className="group bg-white border-2 border-medical-100 rounded-xl hover:border-primary-400 hover:shadow-xl transition-all overflow-hidden">
+              <div className="relative h-48 w-full overflow-hidden bg-gradient-to-br from-medical-50 to-primary-50">
+                <Image 
+                  src="https://customer-assets.emergentagent.com/job_haut-info-de/artifacts/anf5ni25_Ads%C4%B1z%20tasar%C4%B1m%20%2821%29.webp"
+                  alt="Fußpilz Behandlung"
+                  fill
+                  className="object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-semibold text-medical-800 mb-2 group-hover:text-primary-600 transition-colors">
                   Behandlung
                 </h3>
-                <p className="text-sm text-medical-500 mt-2">
+                <p className="text-sm text-medical-600">
                   Wirksame Therapiemöglichkeiten und Medikamente gegen Fußpilz.
                 </p>
               </div>
             </Link>
-            <Link href="/wissen/fusspilz/symptome" className="group">
-              <div className="p-6 bg-white border border-medical-100 rounded-lg hover:border-primary-200 hover:shadow-md transition-all">
-                <h3 className="font-semibold text-medical-800 group-hover:text-primary-600 transition-colors">
+
+            <Link href="/wissen/fusspilz/symptome" className="group bg-white border-2 border-medical-100 rounded-xl hover:border-primary-400 hover:shadow-xl transition-all overflow-hidden">
+              <div className="relative h-48 w-full overflow-hidden bg-gradient-to-br from-medical-50 to-primary-50">
+                <Image 
+                  src="/images/fusspilz-haut-roetung.webp"
+                  alt="Fußpilz Symptome erkennen"
+                  fill
+                  className="object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-semibold text-medical-800 mb-2 group-hover:text-primary-600 transition-colors">
                   Symptome erkennen
                 </h3>
-                <p className="text-sm text-medical-500 mt-2">
+                <p className="text-sm text-medical-600">
                   Typische Anzeichen und Symptome einer Fußpilzinfektion.
                 </p>
               </div>
             </Link>
-            <Link href="/wissen/fusspilz/vorbeugung" className="group">
-              <div className="p-6 bg-white border border-medical-100 rounded-lg hover:border-primary-200 hover:shadow-md transition-all">
-                <h3 className="font-semibold text-medical-800 group-hover:text-primary-600 transition-colors">
+
+            <Link href="/wissen/fusspilz/vorbeugung" className="group bg-white border-2 border-medical-100 rounded-xl hover:border-primary-400 hover:shadow-xl transition-all overflow-hidden">
+              <div className="relative h-48 w-full overflow-hidden bg-gradient-to-br from-medical-50 to-primary-50">
+                <Image 
+                  src="/images/fusspilz-vorbeugung-hygiene.webp"
+                  alt="Fußpilz Vorbeugung"
+                  fill
+                  className="object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-semibold text-medical-800 mb-2 group-hover:text-primary-600 transition-colors">
                   Vorbeugung
                 </h3>
-                <p className="text-sm text-medical-500 mt-2">
+                <p className="text-sm text-medical-600">
                   Effektive Maßnahmen zur Prävention von Fußpilz.
                 </p>
               </div>

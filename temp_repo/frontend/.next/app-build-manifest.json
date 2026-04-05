@@ -20,6 +20,26 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/wissen/fusspilz/behandlung/page.js"
+    ],
+    "/wissen/fusspilz/vorbeugung/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/wissen/fusspilz/vorbeugung/page.js"
+    ],
+    "/wissen/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/wissen/page.js"
+    ],
+    "/wissen/fusspilz/ansteckung/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/wissen/fusspilz/ansteckung/page.js"
+    ],
+    "/wissen/fusspilz/ursachen/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/wissen/fusspilz/ursachen/page.js"
     ]
   }
 }
