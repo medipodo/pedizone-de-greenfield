@@ -111,7 +111,7 @@ export default function FusspilzPage() {
           <Link href="/wissen/fusspilz/behandlung" className="group bg-white border-2 border-medical-100 rounded-xl hover:border-primary-400 hover:shadow-xl transition-all overflow-hidden">
             <div className="relative h-48 w-full overflow-hidden bg-gradient-to-br from-medical-50 to-primary-50">
               <Image 
-                src="https://images.unsplash.com/photo-1687662008557-290cb1d6c6dd?w=600&h=400&fit=crop" 
+                src="https://customer-assets.emergentagent.com/job_haut-info-de/artifacts/anf5ni25_Ads%C4%B1z%20tasar%C4%B1m%20%2821%29.webp" 
                 alt="Behandlung von Fußpilz"
                 fill
                 className="object-cover group-hover:scale-105 transition-transform duration-300"
