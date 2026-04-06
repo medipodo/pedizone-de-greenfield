@@ -70,7 +70,7 @@ export default function CremeArtikel() {
           <p className="mb-4">
             <strong>Wirkung:</strong> Stark fungizid, wirkt schneller als Azole<br/>
             <strong>Anwendung:</strong> 1-2x täglich, oft reichen schon 1-2 Wochen Behandlung<br/>
-            <strong>Vorteil:</strong> Kürzere Therapiedauer, hohe Erfolgsrate (>90%)<br/>
+            <strong>Vorteil:</strong> Kürzere Therapiedauer, hohe Erfolgsrate ({'>'}90%)<br/>
             <strong>Produktbeispiele:</strong> Lamisil®, Terbinafin-1A Pharma®
           </p>
 
