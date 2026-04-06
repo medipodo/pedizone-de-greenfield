@@ -34,6 +34,12 @@ export default function Header() {
               Wissen
             </Link>
             <Link 
+              href="/blog" 
+              className="text-sm font-medium text-medical-600 hover:text-primary-600 transition-colors"
+            >
+              Blog
+            </Link>
+            <Link 
               href="/wissen/fusspilz" 
               className="text-sm font-medium text-medical-600 hover:text-primary-600 transition-colors"
             >
@@ -68,6 +74,13 @@ export default function Header() {
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Wissen
+              </Link>
+              <Link 
+                href="/blog" 
+                className="text-sm font-medium text-medical-600 hover:text-primary-600"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Blog
               </Link>
               <Link 
                 href="/wissen/fusspilz" 

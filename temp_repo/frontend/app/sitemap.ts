@@ -8,7 +8,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
       url: baseUrl,
-      lastModified: today, // Bugün güncellendi - zengin içerik eklendi
+      lastModified: today,
       changeFrequency: 'monthly',
       priority: 0.6,
     },
@@ -20,7 +20,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: `${baseUrl}/wissen/fusspilz`,
-      lastModified: today, // Bugün güncellendi - modern görsel kartlar
+      lastModified: today,
       changeFrequency: 'monthly',
       priority: 0.9,
     },
@@ -63,6 +63,43 @@ export default function sitemap(): MetadataRoute.Sitemap {
     {
       url: `${baseUrl}/wissen/fusspilz/vorbeugung`,
       lastModified: unchangedDate,
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    },
+    // Blog Pages
+    {
+      url: `${baseUrl}/blog`,
+      lastModified: today,
+      changeFrequency: 'weekly',
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/blog/fusspilz`,
+      lastModified: today,
+      changeFrequency: 'weekly',
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/blog/fusspilz/hausmittel`,
+      lastModified: today,
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/blog/fusspilz/creme`,
+      lastModified: today,
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/blog/fusspilz/ansteckend`,
+      lastModified: today,
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/blog/fusspilz/dusche`,
+      lastModified: today,
       changeFrequency: 'monthly',
       priority: 0.7,
     },

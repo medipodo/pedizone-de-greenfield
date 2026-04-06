@@ -16,10 +16,15 @@
       "static/chunks/main-app.js",
       "static/chunks/app/wissen/page.js"
     ],
-    "/_not-found/page": [
+    "/wissen/fusspilz/vorbeugung/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/_not-found/page.js"
+      "static/chunks/app/wissen/fusspilz/vorbeugung/page.js"
+    ],
+    "/wissen/fusspilz/symptome/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/wissen/fusspilz/symptome/page.js"
     ]
   }
 }
