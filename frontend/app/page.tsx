@@ -260,76 +260,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* FAQ Section */}
-      <section className="py-16 bg-medical-50">
-        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-bold text-medical-800 mb-10 text-center">
-            Häufigste Fragen
-          </h2>
-          <div className="space-y-4">
-            <details className="group bg-white p-6 rounded-xl shadow-sm border border-medical-100">
-              <summary className="font-semibold text-medical-800 cursor-pointer flex justify-between items-center">
-                Wie lange dauert die Behandlung von Fußpilz?
-                <svg className="w-5 h-5 text-medical-400 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                </svg>
-              </summary>
-              <p className="mt-4 text-medical-600 text-sm">
-                Die Behandlung dauert in der Regel 2-4 Wochen bei konsequenter Anwendung von Antimykotika. Wichtig ist, die Behandlung auch nach Abklingen der Symptome fortzusetzen, um Rückfälle zu vermeiden.
-              </p>
-            </details>
-
-            <details className="group bg-white p-6 rounded-xl shadow-sm border border-medical-100">
-              <summary className="font-semibold text-medical-800 cursor-pointer flex justify-between items-center">
-                Ist Fußpilz gefährlich?
-                <svg className="w-5 h-5 text-medical-400 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                </svg>
-              </summary>
-              <p className="mt-4 text-medical-600 text-sm">
-                Fußpilz ist in der Regel nicht gefährlich, aber unangenehm. Unbehandelt kann er sich ausbreiten, chronisch werden und zu Nagelpilz führen. Bei Diabetikern oder immungeschwächten Personen sollte besondere Vorsicht gelten.
-              </p>
-            </details>
-
-            <details className="group bg-white p-6 rounded-xl shadow-sm border border-medical-100">
-              <summary className="font-semibold text-medical-800 cursor-pointer flex justify-between items-center">
-                Kann ich mit Fußpilz Sport machen?
-                <svg className="w-5 h-5 text-medical-400 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                </svg>
-              </summary>
-              <p className="mt-4 text-medical-600 text-sm">
-                Ja, Sport ist möglich. Wichtig ist, atmungsaktive Schuhe zu tragen, die Füße nach dem Sport gründlich zu trocknen und Gemeinschaftsduschen mit Badeschuhen zu nutzen, um andere nicht anzustecken.
-              </p>
-            </details>
-
-            <details className="group bg-white p-6 rounded-xl shadow-sm border border-medical-100">
-              <summary className="font-semibold text-medical-800 cursor-pointer flex justify-between items-center">
-                Kann Fußpilz von selbst verschwinden?
-                <svg className="w-5 h-5 text-medical-400 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                </svg>
-              </summary>
-              <p className="mt-4 text-medical-600 text-sm">
-                Nein, Fußpilz verschwindet nicht von selbst. Ohne Behandlung kann er chronisch werden und sich ausbreiten. Eine antimykotische Behandlung ist notwendig, um die Pilzinfektion vollständig zu beseitigen.
-              </p>
-            </details>
-
-            <details className="group bg-white p-6 rounded-xl shadow-sm border border-medical-100">
-              <summary className="font-semibold text-medical-800 cursor-pointer flex justify-between items-center">
-                Wie kann ich Fußpilz vorbeugen?
-                <svg className="w-5 h-5 text-medical-400 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                </svg>
-              </summary>
-              <p className="mt-4 text-medical-600 text-sm">
-                Halten Sie Ihre Füße trocken, wechseln Sie täglich Socken, tragen Sie atmungsaktive Schuhe, nutzen Sie Badeschuhe in öffentlichen Bereichen und trocknen Sie Zehenzwischenräume gründlich ab. <Link href="/wissen/fusspilz/vorbeugung" className="text-primary-600 hover:underline">Mehr Tipps zur Vorbeugung</Link>
-              </p>
-            </details>
-          </div>
-        </div>
-      </section>
-
         {/* Blog Section */}
         <section className="py-16 bg-white">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -429,6 +359,77 @@ export default function HomePage() {
             </div>
           </div>
         </section>
+
+      {/* FAQ Section */}
+      <section className="py-16 bg-medical-50">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-2xl font-bold text-medical-800 mb-10 text-center">
+            Häufigste Fragen
+          </h2>
+          <div className="space-y-4">
+            <details className="group bg-white p-6 rounded-xl shadow-sm border border-medical-100">
+              <summary className="font-semibold text-medical-800 cursor-pointer flex justify-between items-center">
+                Wie lange dauert die Behandlung von Fußpilz?
+                <svg className="w-5 h-5 text-medical-400 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+              </summary>
+              <p className="mt-4 text-medical-600 text-sm">
+                Die Behandlung dauert in der Regel 2-4 Wochen bei konsequenter Anwendung von Antimykotika. Wichtig ist, die Behandlung auch nach Abklingen der Symptome fortzusetzen, um Rückfälle zu vermeiden.
+              </p>
+            </details>
+
+            <details className="group bg-white p-6 rounded-xl shadow-sm border border-medical-100">
+              <summary className="font-semibold text-medical-800 cursor-pointer flex justify-between items-center">
+                Ist Fußpilz gefährlich?
+                <svg className="w-5 h-5 text-medical-400 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+              </summary>
+              <p className="mt-4 text-medical-600 text-sm">
+                Fußpilz ist in der Regel nicht gefährlich, aber unangenehm. Unbehandelt kann er sich ausbreiten, chronisch werden und zu Nagelpilz führen. Bei Diabetikern oder immungeschwächten Personen sollte besondere Vorsicht gelten.
+              </p>
+            </details>
+
+            <details className="group bg-white p-6 rounded-xl shadow-sm border border-medical-100">
+              <summary className="font-semibold text-medical-800 cursor-pointer flex justify-between items-center">
+                Kann ich mit Fußpilz Sport machen?
+                <svg className="w-5 h-5 text-medical-400 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+              </summary>
+              <p className="mt-4 text-medical-600 text-sm">
+                Ja, Sport ist möglich. Wichtig ist, atmungsaktive Schuhe zu tragen, die Füße nach dem Sport gründlich zu trocknen und Gemeinschaftsduschen mit Badeschuhen zu nutzen, um andere nicht anzustecken.
+              </p>
+            </details>
+
+            <details className="group bg-white p-6 rounded-xl shadow-sm border border-medical-100">
+              <summary className="font-semibold text-medical-800 cursor-pointer flex justify-between items-center">
+                Kann Fußpilz von selbst verschwinden?
+                <svg className="w-5 h-5 text-medical-400 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+              </summary>
+              <p className="mt-4 text-medical-600 text-sm">
+                Nein, Fußpilz verschwindet nicht von selbst. Ohne Behandlung kann er chronisch werden und sich ausbreiten. Eine antimykotische Behandlung ist notwendig, um die Pilzinfektion vollständig zu beseitigen.
+              </p>
+            </details>
+
+            <details className="group bg-white p-6 rounded-xl shadow-sm border border-medical-100">
+              <summary className="font-semibold text-medical-800 cursor-pointer flex justify-between items-center">
+                Wie kann ich Fußpilz vorbeugen?
+                <svg className="w-5 h-5 text-medical-400 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+              </summary>
+              <p className="mt-4 text-medical-600 text-sm">
+                Halten Sie Ihre Füße trocken, wechseln Sie täglich Socken, tragen Sie atmungsaktive Schuhe, nutzen Sie Badeschuhe in öffentlichen Bereichen und trocknen Sie Zehenzwischenräume gründlich ab. <Link href="/wissen/fusspilz/vorbeugung" className="text-primary-600 hover:underline">Mehr Tipps zur Vorbeugung</Link>
+              </p>
+            </details>
+          </div>
+        </div>
+      </section>
+
 
     </div>
   )

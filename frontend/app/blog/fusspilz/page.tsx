@@ -15,42 +15,49 @@ const articles = [
     title: 'Fußpilz Hausmittel: Was hilft wirklich?',
     excerpt: 'Bewährte Hausmittel gegen Fußpilz im Test - natürliche Methoden mit wissenschaftlicher Bewertung',
     readTime: '8 Min.',
+    image: '/images/blog/hausmittel-1.webp',
   },
   {
     slug: 'creme',
     title: 'Die besten Fußpilz Cremes im Vergleich',
     excerpt: 'Antimykotische Cremes im Detail: Wirkstoffe, Anwendung und Kaufempfehlungen für jeden Bedarf',
     readTime: '10 Min.',
+    image: '/images/blog/creme-1.webp',
   },
   {
     slug: 'ansteckend',
     title: 'Wie ansteckend ist Fußpilz wirklich?',
     excerpt: 'Ansteckungswege, Risikofaktoren und effektive Schutzmaßnahmen für Familie und Haushalt',
     readTime: '7 Min.',
+    image: '/images/blog/ansteckend-1.webp',
   },
   {
     slug: 'dusche',
     title: 'Fußpilz in der Dusche vermeiden',
     excerpt: 'Richtige Hygiene im Badezimmer - praktische Tipps für die tägliche Routine',
     readTime: '6 Min.',
+    image: '/images/blog/dusche-1.webp',
   },
   {
     slug: 'socken',
     title: 'Die richtigen Socken gegen Fußpilz',
     excerpt: 'Materialien, Passform und Pflege - wie Socken bei der Vorbeugung helfen können',
     readTime: '6 Min.',
+    image: '/images/blog/socken-1.webp',
   },
   {
     slug: 'wie-lange',
     title: 'Wie lange dauert Fußpilz?',
     excerpt: 'Behandlungsdauer, Heilungsverlauf und Faktoren, die die Genesung beeinflussen',
     readTime: '7 Min.',
+    image: '/images/blog/wie-lange-1.webp',
   },
   {
     slug: 'bilder',
     title: 'Fußpilz erkennen: Bilder und Symptome',
     excerpt: 'Visuelle Anleitung zur Erkennung verschiedener Fußpilz-Arten mit typischen Symptomen',
     readTime: '9 Min.',
+    image: '/images/blog/bilder-1.webp',
   },
 ]
 
@@ -79,24 +86,30 @@ export default function FusspilzBlogCategory() {
         </div>
 
         {/* Articles Grid */}
-        <div className="space-y-6">
+        <div className="grid md:grid-cols-2 gap-6">
           {articles.map((article) => (
             <Link
               key={article.slug}
               href={`/blog/fusspilz/${article.slug}`}
-              className="group block p-6 bg-white border-2 border-medical-100 rounded-xl hover:border-primary-400 hover:shadow-lg transition-all"
+              className="group bg-white border-2 border-medical-100 rounded-xl hover:border-primary-400 hover:shadow-xl transition-all overflow-hidden"
             >
-              <div className="flex items-start justify-between gap-4">
-                <div className="flex-1">
-                  <h2 className="text-xl font-semibold text-medical-800 mb-2 group-hover:text-primary-600 transition-colors">
-                    {article.title}
-                  </h2>
-                  <p className="text-medical-600 text-sm mb-3">{article.excerpt}</p>
-                  <span className="text-xs text-medical-500">🕒 {article.readTime} Lesezeit</span>
+              <div className="relative h-48 w-full overflow-hidden bg-gradient-to-br from-medical-50 to-primary-50">
+                <Image 
+                  src={article.image}
+                  alt={article.title}
+                  fill
+                  className="object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />
+                <div className="absolute bottom-4 right-4">
+                  <span className="text-xs text-white/90 bg-black/30 px-2 py-1 rounded">🕒 {article.readTime}</span>
                 </div>
-                <svg className="w-6 h-6 text-medical-300 group-hover:text-primary-600 transition-colors flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                </svg>
+              </div>
+              <div className="p-6">
+                <h2 className="text-xl font-semibold text-medical-800 mb-2 group-hover:text-primary-600 transition-colors">
+                  {article.title}
+                </h2>
+                <p className="text-medical-600 text-sm">{article.excerpt}</p>
               </div>
             </Link>
           ))}

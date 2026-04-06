@@ -26,28 +26,28 @@ const latestArticles = [
     slug: 'hausmittel',
     title: 'Fußpilz Hausmittel: Was hilft wirklich?',
     excerpt: 'Entdecken Sie bewährte Hausmittel gegen Fußpilz und erfahren Sie, welche natürlichen Methoden wissenschaftlich belegt sind.',
-    image: '/images/blog/hausmittel-placeholder.webp',
+    image: '/images/blog/hausmittel-1.webp',
   },
   {
     category: 'fusspilz',
     slug: 'creme',
     title: 'Die besten Fußpilz Cremes im Vergleich',
     excerpt: 'Ausführlicher Vergleich der wirksamsten antimykotischen Cremes mit Wirkstoffen, Anwendung und Kaufempfehlungen.',
-    image: '/images/blog/creme-placeholder.webp',
+    image: '/images/blog/creme-1.webp',
   },
   {
     category: 'fusspilz',
     slug: 'ansteckend',
     title: 'Wie ansteckend ist Fußpilz wirklich?',
     excerpt: 'Alles über Ansteckungswege, Übertragungsrisiken und wie Sie sich und andere schützen können.',
-    image: '/images/blog/ansteckend-placeholder.webp',
+    image: '/images/blog/ansteckend-1.webp',
   },
   {
     category: 'fusspilz',
     slug: 'dusche',
     title: 'Fußpilz in der Dusche vermeiden',
     excerpt: 'Praktische Tipps für die richtige Dusch-Hygiene und wie Sie Fußpilz im Badezimmer vorbeugen.',
-    image: '/images/blog/dusche-placeholder.webp',
+    image: '/images/blog/dusche-1.webp',
   },
 ]
 
@@ -95,6 +95,12 @@ export default function BlogPage() {
                 className="group bg-white border-2 border-medical-100 rounded-xl hover:border-primary-400 hover:shadow-xl transition-all overflow-hidden"
               >
                 <div className="relative h-48 w-full overflow-hidden bg-gradient-to-br from-medical-50 to-primary-50">
+                  <Image 
+                    src={article.image}
+                    alt={article.title}
+                    fill
+                    className="object-cover group-hover:scale-105 transition-transform duration-300"
+                  />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />
                   <div className="absolute bottom-4 left-4">
                     <span className="inline-block px-3 py-1 bg-primary-600 text-white text-xs font-semibold rounded-full">
