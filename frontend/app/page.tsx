@@ -335,44 +335,88 @@ export default function HomePage() {
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-2xl font-bold text-medical-800 mb-6">Aktuelle Blog-Artikel</h2>
             <div className="grid md:grid-cols-2 gap-6">
-              <Link href="/blog/fusspilz/hausmittel" className="group bg-white border-2 border-medical-100 rounded-xl hover:border-primary-400 hover:shadow-lg transition-all p-6">
-                <h3 className="text-lg font-semibold text-medical-800 mb-2 group-hover:text-primary-600 transition-colors">
-                  Fußpilz Hausmittel: Was hilft wirklich?
-                </h3>
-                <p className="text-sm text-medical-600 mb-3">
-                  Teebaumöl, Essig, Natron – bewährte Hausmittel im wissenschaftlichen Check.
-                </p>
-                <span className="text-xs text-primary-600 font-medium">→ Artikel lesen</span>
+              <Link href="/blog/fusspilz/hausmittel" className="group bg-white border-2 border-medical-100 rounded-xl hover:border-primary-400 hover:shadow-xl transition-all overflow-hidden">
+                <div className="relative h-48 w-full overflow-hidden bg-gradient-to-br from-medical-50 to-primary-50">
+                  <Image 
+                    src="/images/blog/hausmittel-1.webp"
+                    alt="Fußpilz Hausmittel"
+                    fill
+                    className="object-cover group-hover:scale-105 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />
+                </div>
+                <div className="p-6">
+                  <h3 className="text-lg font-semibold text-medical-800 mb-2 group-hover:text-primary-600 transition-colors">
+                    Fußpilz Hausmittel: Was hilft wirklich?
+                  </h3>
+                  <p className="text-sm text-medical-600 mb-3">
+                    Teebaumöl, Essig, Natron – bewährte Hausmittel im wissenschaftlichen Check.
+                  </p>
+                  <span className="text-xs text-primary-600 font-medium">→ Artikel lesen</span>
+                </div>
               </Link>
 
-              <Link href="/blog/fusspilz/creme" className="group bg-white border-2 border-medical-100 rounded-xl hover:border-primary-400 hover:shadow-lg transition-all p-6">
-                <h3 className="text-lg font-semibold text-medical-800 mb-2 group-hover:text-primary-600 transition-colors">
-                  Die besten Fußpilz Cremes im Vergleich
-                </h3>
-                <p className="text-sm text-medical-600 mb-3">
-                  Clotrimazol vs. Terbinafin – welcher Wirkstoff für welchen Fall?
-                </p>
-                <span className="text-xs text-primary-600 font-medium">→ Artikel lesen</span>
+              <Link href="/blog/fusspilz/creme" className="group bg-white border-2 border-medical-100 rounded-xl hover:border-primary-400 hover:shadow-xl transition-all overflow-hidden">
+                <div className="relative h-48 w-full overflow-hidden bg-gradient-to-br from-medical-50 to-primary-50">
+                  <Image 
+                    src="/images/blog/creme-1.webp"
+                    alt="Fußpilz Cremes Vergleich"
+                    fill
+                    className="object-cover group-hover:scale-105 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />
+                </div>
+                <div className="p-6">
+                  <h3 className="text-lg font-semibold text-medical-800 mb-2 group-hover:text-primary-600 transition-colors">
+                    Die besten Fußpilz Cremes im Vergleich
+                  </h3>
+                  <p className="text-sm text-medical-600 mb-3">
+                    Clotrimazol vs. Terbinafin – welcher Wirkstoff für welchen Fall?
+                  </p>
+                  <span className="text-xs text-primary-600 font-medium">→ Artikel lesen</span>
+                </div>
               </Link>
 
-              <Link href="/blog/fusspilz/ansteckend" className="group bg-white border-2 border-medical-100 rounded-xl hover:border-primary-400 hover:shadow-lg transition-all p-6">
-                <h3 className="text-lg font-semibold text-medical-800 mb-2 group-hover:text-primary-600 transition-colors">
-                  Wie ansteckend ist Fußpilz wirklich?
-                </h3>
-                <p className="text-sm text-medical-600 mb-3">
-                  Ansteckungswege, Risikofaktoren und Schutzmaßnahmen.
-                </p>
-                <span className="text-xs text-primary-600 font-medium">→ Artikel lesen</span>
+              <Link href="/blog/fusspilz/ansteckend" className="group bg-white border-2 border-medical-100 rounded-xl hover:border-primary-400 hover:shadow-xl transition-all overflow-hidden">
+                <div className="relative h-48 w-full overflow-hidden bg-gradient-to-br from-medical-50 to-primary-50">
+                  <Image 
+                    src="/images/blog/ansteckend-1.webp"
+                    alt="Fußpilz Ansteckung"
+                    fill
+                    className="object-cover group-hover:scale-105 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />
+                </div>
+                <div className="p-6">
+                  <h3 className="text-lg font-semibold text-medical-800 mb-2 group-hover:text-primary-600 transition-colors">
+                    Wie ansteckend ist Fußpilz wirklich?
+                  </h3>
+                  <p className="text-sm text-medical-600 mb-3">
+                    Ansteckungswege, Risikofaktoren und Schutzmaßnahmen.
+                  </p>
+                  <span className="text-xs text-primary-600 font-medium">→ Artikel lesen</span>
+                </div>
               </Link>
 
-              <Link href="/blog/fusspilz/dusche" className="group bg-white border-2 border-medical-100 rounded-xl hover:border-primary-400 hover:shadow-lg transition-all p-6">
-                <h3 className="text-lg font-semibold text-medical-800 mb-2 group-hover:text-primary-600 transition-colors">
-                  Fußpilz in der Dusche vermeiden
-                </h3>
-                <p className="text-sm text-medical-600 mb-3">
-                  Die 3-Punkte-Routine für Hygiene zuhause.
-                </p>
-                <span className="text-xs text-primary-600 font-medium">→ Artikel lesen</span>
+              <Link href="/blog/fusspilz/dusche" className="group bg-white border-2 border-medical-100 rounded-xl hover:border-primary-400 hover:shadow-xl transition-all overflow-hidden">
+                <div className="relative h-48 w-full overflow-hidden bg-gradient-to-br from-medical-50 to-primary-50">
+                  <Image 
+                    src="/images/blog/dusche-1.webp"
+                    alt="Fußpilz Dusche vermeiden"
+                    fill
+                    className="object-cover group-hover:scale-105 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />
+                </div>
+                <div className="p-6">
+                  <h3 className="text-lg font-semibold text-medical-800 mb-2 group-hover:text-primary-600 transition-colors">
+                    Fußpilz in der Dusche vermeiden
+                  </h3>
+                  <p className="text-sm text-medical-600 mb-3">
+                    Die 3-Punkte-Routine für Hygiene zuhause.
+                  </p>
+                  <span className="text-xs text-primary-600 font-medium">→ Artikel lesen</span>
+                </div>
               </Link>
             </div>
             <div className="mt-8 text-center">
