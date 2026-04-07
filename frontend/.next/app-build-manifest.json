@@ -16,15 +16,6 @@
       "static/chunks/972-2cbbec9233a2a286.js",
       "static/chunks/app/layout-f38085667e8a3039.js"
     ],
-    "/blog/fusspilz/ansteckend/page": [
-      "static/chunks/webpack-c81f7fd28659d64f.js",
-      "static/chunks/fd9d1056-357a9aa7cf7b0906.js",
-      "static/chunks/117-62620f5c64eb98f4.js",
-      "static/chunks/main-app-b5146d1b055dd54e.js",
-      "static/chunks/972-2cbbec9233a2a286.js",
-      "static/chunks/878-786280eafd86ea37.js",
-      "static/chunks/app/blog/fusspilz/ansteckend/page-0dea6506d084565d.js"
-    ],
     "/blog/fusspilz/creme/page": [
       "static/chunks/webpack-c81f7fd28659d64f.js",
       "static/chunks/fd9d1056-357a9aa7cf7b0906.js",
@@ -32,16 +23,16 @@
       "static/chunks/main-app-b5146d1b055dd54e.js",
       "static/chunks/972-2cbbec9233a2a286.js",
       "static/chunks/878-786280eafd86ea37.js",
-      "static/chunks/app/blog/fusspilz/creme/page-4cd9548a653c9a27.js"
+      "static/chunks/app/blog/fusspilz/creme/page-f13eeadb50629101.js"
     ],
-    "/blog/fusspilz/bilder/page": [
+    "/blog/fusspilz/ansteckend/page": [
       "static/chunks/webpack-c81f7fd28659d64f.js",
       "static/chunks/fd9d1056-357a9aa7cf7b0906.js",
       "static/chunks/117-62620f5c64eb98f4.js",
       "static/chunks/main-app-b5146d1b055dd54e.js",
       "static/chunks/972-2cbbec9233a2a286.js",
       "static/chunks/878-786280eafd86ea37.js",
-      "static/chunks/app/blog/fusspilz/bilder/page-955d4a1f27574ce7.js"
+      "static/chunks/app/blog/fusspilz/ansteckend/page-33bc44b5386d5f02.js"
     ],
     "/blog/fusspilz/dusche/page": [
       "static/chunks/webpack-c81f7fd28659d64f.js",
@@ -50,7 +41,16 @@
       "static/chunks/main-app-b5146d1b055dd54e.js",
       "static/chunks/972-2cbbec9233a2a286.js",
       "static/chunks/878-786280eafd86ea37.js",
-      "static/chunks/app/blog/fusspilz/dusche/page-09b837d1d6438352.js"
+      "static/chunks/app/blog/fusspilz/dusche/page-5b66e19cd5dcc5e0.js"
+    ],
+    "/blog/fusspilz/bilder/page": [
+      "static/chunks/webpack-c81f7fd28659d64f.js",
+      "static/chunks/fd9d1056-357a9aa7cf7b0906.js",
+      "static/chunks/117-62620f5c64eb98f4.js",
+      "static/chunks/main-app-b5146d1b055dd54e.js",
+      "static/chunks/972-2cbbec9233a2a286.js",
+      "static/chunks/878-786280eafd86ea37.js",
+      "static/chunks/app/blog/fusspilz/bilder/page-14bd9fd9bd61a0b3.js"
     ],
     "/blog/fusspilz/page": [
       "static/chunks/webpack-c81f7fd28659d64f.js",
@@ -59,7 +59,7 @@
       "static/chunks/main-app-b5146d1b055dd54e.js",
       "static/chunks/972-2cbbec9233a2a286.js",
       "static/chunks/878-786280eafd86ea37.js",
-      "static/chunks/app/blog/fusspilz/page-a3666169470c7d86.js"
+      "static/chunks/app/blog/fusspilz/page-cf7562941a292fc7.js"
     ],
     "/blog/fusspilz/hausmittel/page": [
       "static/chunks/webpack-c81f7fd28659d64f.js",
@@ -68,7 +68,7 @@
       "static/chunks/main-app-b5146d1b055dd54e.js",
       "static/chunks/972-2cbbec9233a2a286.js",
       "static/chunks/878-786280eafd86ea37.js",
-      "static/chunks/app/blog/fusspilz/hausmittel/page-7955fbe33c3719d8.js"
+      "static/chunks/app/blog/fusspilz/hausmittel/page-88658d4e997fb32d.js"
     ],
     "/blog/page": [
       "static/chunks/webpack-c81f7fd28659d64f.js",
@@ -77,7 +77,7 @@
       "static/chunks/main-app-b5146d1b055dd54e.js",
       "static/chunks/972-2cbbec9233a2a286.js",
       "static/chunks/878-786280eafd86ea37.js",
-      "static/chunks/app/blog/page-8e9125e58f3a8483.js"
+      "static/chunks/app/blog/page-87df08b4d9b6f196.js"
     ],
     "/blog/fusspilz/socken/page": [
       "static/chunks/webpack-c81f7fd28659d64f.js",
@@ -86,7 +86,7 @@
       "static/chunks/main-app-b5146d1b055dd54e.js",
       "static/chunks/972-2cbbec9233a2a286.js",
       "static/chunks/878-786280eafd86ea37.js",
-      "static/chunks/app/blog/fusspilz/socken/page-c7242d3c58b1c3cc.js"
+      "static/chunks/app/blog/fusspilz/socken/page-c92f98df416f7cdd.js"
     ],
     "/blog/fusspilz/wie-lange/page": [
       "static/chunks/webpack-c81f7fd28659d64f.js",
@@ -95,7 +95,7 @@
       "static/chunks/main-app-b5146d1b055dd54e.js",
       "static/chunks/972-2cbbec9233a2a286.js",
       "static/chunks/878-786280eafd86ea37.js",
-      "static/chunks/app/blog/fusspilz/wie-lange/page-61c058ea6fb3ac1a.js"
+      "static/chunks/app/blog/fusspilz/wie-lange/page-ccf1182ce3067262.js"
     ],
     "/wissen/fusspilz/arten/page": [
       "static/chunks/webpack-c81f7fd28659d64f.js",
@@ -120,7 +120,7 @@
       "static/chunks/main-app-b5146d1b055dd54e.js",
       "static/chunks/972-2cbbec9233a2a286.js",
       "static/chunks/878-786280eafd86ea37.js",
-      "static/chunks/app/wissen/fusspilz/behandlung/page-da6671d7356f44eb.js"
+      "static/chunks/app/wissen/fusspilz/behandlung/page-a1c0bddf24b0bebd.js"
     ],
     "/wissen/fusspilz/page": [
       "static/chunks/webpack-c81f7fd28659d64f.js",
@@ -129,7 +129,7 @@
       "static/chunks/main-app-b5146d1b055dd54e.js",
       "static/chunks/972-2cbbec9233a2a286.js",
       "static/chunks/878-786280eafd86ea37.js",
-      "static/chunks/app/wissen/fusspilz/page-70f2876f1c78ce87.js"
+      "static/chunks/app/wissen/fusspilz/page-0a88ca9acb74bae9.js"
     ],
     "/page": [
       "static/chunks/webpack-c81f7fd28659d64f.js",
@@ -138,7 +138,7 @@
       "static/chunks/main-app-b5146d1b055dd54e.js",
       "static/chunks/972-2cbbec9233a2a286.js",
       "static/chunks/878-786280eafd86ea37.js",
-      "static/chunks/app/page-8c48ac6c62a21128.js"
+      "static/chunks/app/page-6f59529a4c9109ff.js"
     ],
     "/wissen/fusspilz/ursachen/page": [
       "static/chunks/webpack-c81f7fd28659d64f.js",
@@ -163,7 +163,7 @@
       "static/chunks/main-app-b5146d1b055dd54e.js",
       "static/chunks/972-2cbbec9233a2a286.js",
       "static/chunks/878-786280eafd86ea37.js",
-      "static/chunks/app/wissen/fusspilz/symptome/page-613c04d1bbc66094.js"
+      "static/chunks/app/wissen/fusspilz/symptome/page-43e087761d877737.js"
     ],
     "/wissen/fusspilz/was-ist-fusspilz/page": [
       "static/chunks/webpack-c81f7fd28659d64f.js",
@@ -180,7 +180,7 @@
       "static/chunks/main-app-b5146d1b055dd54e.js",
       "static/chunks/972-2cbbec9233a2a286.js",
       "static/chunks/878-786280eafd86ea37.js",
-      "static/chunks/app/wissen/fusspilz/vorbeugung/page-9a81e7bc227e3439.js"
+      "static/chunks/app/wissen/fusspilz/vorbeugung/page-206645486ccb3e87.js"
     ]
   }
 }

@@ -265,11 +265,11 @@ export default function HomePage() {
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-2xl font-bold text-medical-800 mb-6">Aktuelle Blog-Artikel</h2>
             <div className="grid md:grid-cols-2 gap-6">
-              <Link href="/blog/fusspilz/hausmittel" className="group bg-white border-2 border-medical-100 rounded-xl hover:border-primary-400 hover:shadow-xl transition-all overflow-hidden">
+              <Link href="/blog/fusspilz/bilder" className="group bg-white border-2 border-medical-100 rounded-xl hover:border-primary-400 hover:shadow-xl transition-all overflow-hidden">
                 <div className="relative h-48 w-full overflow-hidden bg-gradient-to-br from-medical-50 to-primary-50">
                   <Image 
-                    src="/images/blog/hausmittel-1.webp"
-                    alt="Fußpilz Hausmittel"
+                    src="/images/blog/bilder-1.webp"
+                    alt="Fußpilz erkennen mit Bildern"
                     fill
                     className="object-cover group-hover:scale-105 transition-transform duration-300"
                   />
@@ -277,20 +277,20 @@ export default function HomePage() {
                 </div>
                 <div className="p-6">
                   <h3 className="text-lg font-semibold text-medical-800 mb-2 group-hover:text-primary-600 transition-colors">
-                    Fußpilz Hausmittel: Was hilft wirklich?
+                    Fußpilz erkennen: Bilder und Symptome
                   </h3>
                   <p className="text-sm text-medical-600 mb-3">
-                    Teebaumöl, Essig, Natron – bewährte Hausmittel im wissenschaftlichen Check.
+                    Visueller Guide mit Symptom-Checkliste – verschiedene Typen und typische Anzeichen.
                   </p>
                   <span className="text-xs text-primary-600 font-medium">→ Artikel lesen</span>
                 </div>
               </Link>
 
-              <Link href="/blog/fusspilz/creme" className="group bg-white border-2 border-medical-100 rounded-xl hover:border-primary-400 hover:shadow-xl transition-all overflow-hidden">
+              <Link href="/blog/fusspilz/wie-lange" className="group bg-white border-2 border-medical-100 rounded-xl hover:border-primary-400 hover:shadow-xl transition-all overflow-hidden">
                 <div className="relative h-48 w-full overflow-hidden bg-gradient-to-br from-medical-50 to-primary-50">
                   <Image 
-                    src="/images/blog/creme-1.webp"
-                    alt="Fußpilz Cremes Vergleich"
+                    src="/images/blog/wie-lange-1.webp"
+                    alt="Fußpilz Behandlungsdauer"
                     fill
                     className="object-cover group-hover:scale-105 transition-transform duration-300"
                   />
@@ -298,20 +298,20 @@ export default function HomePage() {
                 </div>
                 <div className="p-6">
                   <h3 className="text-lg font-semibold text-medical-800 mb-2 group-hover:text-primary-600 transition-colors">
-                    Die besten Fußpilz Cremes im Vergleich
+                    Wie lange dauert Fußpilz?
                   </h3>
                   <p className="text-sm text-medical-600 mb-3">
-                    Clotrimazol vs. Terbinafin – welcher Wirkstoff für welchen Fall?
+                    Realistische Timeline und Faktoren, die die Behandlungsdauer beeinflussen.
                   </p>
                   <span className="text-xs text-primary-600 font-medium">→ Artikel lesen</span>
                 </div>
               </Link>
 
-              <Link href="/blog/fusspilz/ansteckend" className="group bg-white border-2 border-medical-100 rounded-xl hover:border-primary-400 hover:shadow-xl transition-all overflow-hidden">
+              <Link href="/blog/fusspilz/socken" className="group bg-white border-2 border-medical-100 rounded-xl hover:border-primary-400 hover:shadow-xl transition-all overflow-hidden">
                 <div className="relative h-48 w-full overflow-hidden bg-gradient-to-br from-medical-50 to-primary-50">
                   <Image 
-                    src="/images/blog/ansteckend-1.webp"
-                    alt="Fußpilz Ansteckung"
+                    src="/images/blog/socken-1.webp"
+                    alt="Die richtigen Socken bei Fußpilz"
                     fill
                     className="object-cover group-hover:scale-105 transition-transform duration-300"
                   />
@@ -319,10 +319,10 @@ export default function HomePage() {
                 </div>
                 <div className="p-6">
                   <h3 className="text-lg font-semibold text-medical-800 mb-2 group-hover:text-primary-600 transition-colors">
-                    Wie ansteckend ist Fußpilz wirklich?
+                    Die richtigen Socken gegen Fußpilz
                   </h3>
                   <p className="text-sm text-medical-600 mb-3">
-                    Ansteckungswege, Risikofaktoren und Schutzmaßnahmen.
+                    Material, Wechselfrequenz und Wasch-Hygiene für optimale Heilung.
                   </p>
                   <span className="text-xs text-primary-600 font-medium">→ Artikel lesen</span>
                 </div>
