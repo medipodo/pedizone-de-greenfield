@@ -49,6 +49,27 @@ const latestArticles = [
     excerpt: 'Praktische Tipps für die richtige Dusch-Hygiene und wie Sie Fußpilz im Badezimmer vorbeugen.',
     image: '/images/blog/dusche-1.webp',
   },
+  {
+    category: 'fusspilz',
+    slug: 'socken',
+    title: 'Die richtigen Socken gegen Fußpilz',
+    excerpt: 'Material, Wechselfrequenz und Wasch-Hygiene – wie die richtige Socken-Wahl die Heilung unterstützt.',
+    image: '/images/blog/socken-1.webp',
+  },
+  {
+    category: 'fusspilz',
+    slug: 'wie-lange',
+    title: 'Wie lange dauert Fußpilz?',
+    excerpt: 'Realistische Timeline von der ersten Anwendung bis zur vollständigen Heilung – und was die Dauer beeinflusst.',
+    image: '/images/blog/wie-lange-1.webp',
+  },
+  {
+    category: 'fusspilz',
+    slug: 'bilder',
+    title: 'Fußpilz erkennen: Bilder und Symptome',
+    excerpt: 'Visueller Guide mit Symptom-Checkliste – verschiedene Typen, typische Anzeichen und Unterscheidung.',
+    image: '/images/blog/bilder-1.webp',
+  },
 ]
 
 export default function BlogPage() {
