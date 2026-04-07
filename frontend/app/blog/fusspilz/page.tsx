@@ -12,6 +12,13 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: 'behandeln',
+    title: 'Fußpilz behandeln: Was wirklich hilft',
+    excerpt: 'Der komplette Guide: Welche Methoden funktionieren? Wie lange dauert es? Alle Fehler vermeiden.',
+    readTime: '8 Min.',
+    image: '/images/blog/behandeln-hero.webp',
+  },
+  {
     slug: 'hausmittel',
     title: 'Fußpilz Hausmittel: Was hilft wirklich?',
     excerpt: 'Bewährte Hausmittel gegen Fußpilz im Test - natürliche Methoden mit wissenschaftlicher Bewertung',

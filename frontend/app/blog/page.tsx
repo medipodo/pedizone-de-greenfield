@@ -15,12 +15,19 @@ const blogCategories = [
     slug: 'fusspilz',
     title: 'Fußpilz',
     description: 'Umfassende Ratgeber zu Behandlung, Vorbeugung und allem rund um Fußpilz',
-    articleCount: 7,
+    articleCount: 8,
     icon: '🦠',
   },
 ]
 
 const latestArticles = [
+  {
+    category: 'fusspilz',
+    slug: 'behandeln',
+    title: 'Fußpilz behandeln: Was wirklich hilft',
+    excerpt: 'Welche Creme hilft wirklich? Wie lange dauert die Heilung? Der komplette 2026 Guide für effektive Behandlung.',
+    image: '/images/blog/behandeln-hero.webp',
+  },
   {
     category: 'fusspilz',
     slug: 'hausmittel',

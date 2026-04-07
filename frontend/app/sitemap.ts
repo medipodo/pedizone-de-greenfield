@@ -106,6 +106,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     // New articles added on April 7, 2026
     {
+      url: `${baseUrl}/blog/fusspilz/behandeln`,
+      lastModified: today,
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    },
+    {
       url: `${baseUrl}/blog/fusspilz/socken`,
       lastModified: today,
       changeFrequency: 'monthly',
