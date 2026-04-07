@@ -2,8 +2,9 @@ import { MetadataRoute } from 'next'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://pedizone.de'
-  const today = new Date('2026-04-05')
+  const today = new Date('2026-04-07')
   const unchangedDate = new Date('2026-04-01')
+  const april6 = new Date('2026-04-06')
 
   return [
     {
@@ -81,24 +82,43 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: `${baseUrl}/blog/fusspilz/hausmittel`,
-      lastModified: today,
+      lastModified: april6,
       changeFrequency: 'monthly',
       priority: 0.7,
     },
     {
       url: `${baseUrl}/blog/fusspilz/creme`,
-      lastModified: today,
+      lastModified: april6,
       changeFrequency: 'monthly',
       priority: 0.7,
     },
     {
       url: `${baseUrl}/blog/fusspilz/ansteckend`,
-      lastModified: today,
+      lastModified: april6,
       changeFrequency: 'monthly',
       priority: 0.7,
     },
     {
       url: `${baseUrl}/blog/fusspilz/dusche`,
+      lastModified: april6,
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    },
+    // New articles added on April 7, 2026
+    {
+      url: `${baseUrl}/blog/fusspilz/socken`,
+      lastModified: today,
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/blog/fusspilz/wie-lange`,
+      lastModified: today,
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/blog/fusspilz/bilder`,
       lastModified: today,
       changeFrequency: 'monthly',
       priority: 0.7,
